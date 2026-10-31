@@ -1,0 +1,31 @@
+{
+  "protocol_note": "train and validation inputs only; test sealed",
+  "train": {
+    "questions": 4755,
+    "hard_filter_all_groups_removed": [],
+    "boxed_conflicting_target_questions": [
+      346,
+      2263
+    ],
+    "boxed_protocol_invisible_target_questions": [
+      2354,
+      3738,
+      3950,
+      4082,
+      4378,
+      4593
+    ]
+  },
+  "validation": {
+    "questions": 798,
+    "hard_filter_all_groups_removed": [],
+    "boxed_conflicting_target_questions": [],
+    "boxed_protocol_invisible_target_questions": [
+      183,
+      499,
+      521,
+      553
+    ]
+  },
+  "synthetic_fallback_regression": "covered by models/test_cascade_verifier.py"
+}

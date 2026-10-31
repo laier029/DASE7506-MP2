@@ -1,0 +1,58 @@
+{
+  "protocol_note": "train and validation references only; test sealed",
+  "interpretation": "The exact lower bound quantifies finite-sample uncertainty only when every flagged answer group was wrong.",
+  "splits": {
+    "train": {
+      "unanimous_broad_arithmetic": {
+        "rejected_answer_groups": 6,
+        "wrong_answer_groups": 6,
+        "observed_wrong_precision": 1.0,
+        "one_sided_95pct_exact_lower_if_zero_false_rejections": 0.6069622310029172
+      },
+      "fractional_answer": {
+        "rejected_answer_groups": 279,
+        "wrong_answer_groups": 279,
+        "observed_wrong_precision": 1.0,
+        "one_sided_95pct_exact_lower_if_zero_false_rejections": 0.9893200483592067
+      },
+      "safe_nonpositive_answer": {
+        "rejected_answer_groups": 122,
+        "wrong_answer_groups": 122,
+        "observed_wrong_precision": 1.0,
+        "one_sided_95pct_exact_lower_if_zero_false_rejections": 0.9757438433797021
+      },
+      "explicit_final_declaration_conflict": {
+        "rejected_answer_groups": 25,
+        "wrong_answer_groups": 25,
+        "observed_wrong_precision": 1.0,
+        "one_sided_95pct_exact_lower_if_zero_false_rejections": 0.8870718549931568
+      }
+    },
+    "validation": {
+      "unanimous_broad_arithmetic": {
+        "rejected_answer_groups": 3,
+        "wrong_answer_groups": 3,
+        "observed_wrong_precision": 1.0,
+        "one_sided_95pct_exact_lower_if_zero_false_rejections": 0.3684031498640387
+      },
+      "fractional_answer": {
+        "rejected_answer_groups": 56,
+        "wrong_answer_groups": 56,
+        "observed_wrong_precision": 1.0,
+        "one_sided_95pct_exact_lower_if_zero_false_rejections": 0.9479104727912205
+      },
+      "safe_nonpositive_answer": {
+        "rejected_answer_groups": 25,
+        "wrong_answer_groups": 25,
+        "observed_wrong_precision": 1.0,
+        "one_sided_95pct_exact_lower_if_zero_false_rejections": 0.8870718549931568
+      },
+      "explicit_final_declaration_conflict": {
+        "rejected_answer_groups": 5,
+        "wrong_answer_groups": 5,
+        "observed_wrong_precision": 1.0,
+        "one_sided_95pct_exact_lower_if_zero_false_rejections": 0.5492802716530588
+      }
+    }
+  }
+}

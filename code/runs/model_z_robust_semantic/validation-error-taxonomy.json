@@ -1,0 +1,26 @@
+{
+  "protocol_note": "manual, exclusive interpretation of validation errors; not a test-distribution estimate",
+  "categories": {
+    "multiplicity_time_or_participant_accounting": {
+      "count": 11,
+      "row_indices": [22, 90, 133, 171, 206, 209, 275, 359, 371, 454, 497]
+    },
+    "state_transition_or_baseline_ledger": {
+      "count": 9,
+      "row_indices": [32, 97, 161, 362, 444, 661, 679, 739, 788]
+    },
+    "relational_algebra_or_comparison": {
+      "count": 8,
+      "row_indices": [44, 175, 210, 550, 586, 613, 728, 760]
+    },
+    "discrete_remainder": {
+      "count": 1,
+      "row_indices": [328]
+    },
+    "geometry": {
+      "count": 1,
+      "row_indices": [626]
+    }
+  },
+  "total": 30
+}

@@ -1,0 +1,31 @@
+{
+  "protocol_note": "fresh train-only asset rebuild plus validation evaluation; test sealed",
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "scikit_learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "embedding_asset_training_seconds": 0.39492600000085076,
+  "structure_text_asset_training_seconds": 9.02389787500033,
+  "validation": {
+    "correct": 768,
+    "n": 798,
+    "accuracy": 96.2406015037594,
+    "selected_payload_sha256": "a6a78395f1b91882befed1311db7f31b2b07b3d358f24a7fec1172036f677f30",
+    "selections_identical_to_frozen_checkpoint": true
+  },
+  "assets": {
+    "model.npz": {
+      "bytes": 15473,
+      "sha256": "4d9e50ace57b75d744bf37965288754339457f22f17ca955143a67a0d3999cb6",
+      "identical_to_frozen_checkpoint": true
+    },
+    "structure_text_model.joblib": {
+      "bytes": 1559531,
+      "sha256": "9cd78234fc5d8b22819df9b2d843739bc2c6077d2ebc8695312d0e3102e11586",
+      "identical_to_frozen_checkpoint": true
+    }
+  },
+  "temporary_rebuild_directory_removed": true
+}

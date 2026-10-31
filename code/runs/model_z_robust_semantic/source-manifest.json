@@ -1,0 +1,159 @@
+{
+  "asset_bytes": 1575004,
+  "asset_file_count": 2,
+  "asset_files": [
+    {
+      "path": "runs/model_z_robust_semantic/model.npz",
+      "sha256": "4d9e50ace57b75d744bf37965288754339457f22f17ca955143a67a0d3999cb6",
+      "size_bytes": 15473
+    },
+    {
+      "path": "runs/model_z_robust_semantic/structure_text_model.joblib",
+      "sha256": "9cd78234fc5d8b22819df9b2d843739bc2c6077d2ebc8695312d0e3102e11586",
+      "size_bytes": 1559531
+    }
+  ],
+  "checkpoint": "runs/model_z_robust_semantic",
+  "entrypoint": "submission.py",
+  "generated_at_utc": "2026-10-29T03:28:19.205089+00:00",
+  "schema_version": 1,
+  "source_bytes": 69563,
+  "source_file_count": 27,
+  "source_files": [
+    {
+      "path": "common.py",
+      "sha256": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c",
+      "size_bytes": 4192
+    },
+    {
+      "path": "models/answer_step_consistency.py",
+      "sha256": "7e0c1ac906d89be50f8cf5696e51a046a3ce5169f51ff71927861a5276a75109",
+      "size_bytes": 3463
+    },
+    {
+      "path": "models/arithmetic_consistency.py",
+      "sha256": "e6783ac24c7dd139a15b5b9ef1cbe9e4fe5c49e61f29ffd4d590078ed78cb37c",
+      "size_bytes": 9708
+    },
+    {
+      "path": "models/broad_arithmetic_group_verifier.py",
+      "sha256": "c4ab65740e78feb96c8652aae2bcd355d4ce7d43d271f5156353ec52facf3b46",
+      "size_bytes": 1785
+    },
+    {
+      "path": "models/calculation_coverage.py",
+      "sha256": "c19f0048e7d5093e9c04c3bd53583b5a8ad9dd8df0a8e1b6489a19da9c9cc476",
+      "size_bytes": 5303
+    },
+    {
+      "path": "models/cascade_verifier.py",
+      "sha256": "df6c2d0782a26947ab9631e7b7d1dbb2a785b411e416abd2289cd4a51f22c1b8",
+      "size_bytes": 4099
+    },
+    {
+      "path": "models/coverage_cascade_verifier.py",
+      "sha256": "d4bd3df270a84e3620ac0ac3e70606d61aa0a3919f51a7196f956140d3c14b29",
+      "size_bytes": 1328
+    },
+    {
+      "path": "models/declared_answer_consistency.py",
+      "sha256": "f60c669a846f026e4a1ca21809c3959a7036f5ccd251bc87924dac9e1cf3219e",
+      "size_bytes": 2672
+    },
+    {
+      "path": "models/final_declaration_consistency.py",
+      "sha256": "4a15633aaf7fc148feac3851627a1b3b40080e4ce197efaae7a6f0df83ef7913",
+      "size_bytes": 1952
+    },
+    {
+      "path": "models/fused_answer_step_verifier.py",
+      "sha256": "d4f5e6abba403e9ba1e6270a04721b0564a9b5767db84a2a9426c3dc1500683b",
+      "size_bytes": 1224
+    },
+    {
+      "path": "models/fused_arithmetic_verifier.py",
+      "sha256": "71933696617cdafa40c7c601152c9be1fe0aa5b5f676a327b9efdea3b4df5e66",
+      "size_bytes": 1216
+    },
+    {
+      "path": "models/fused_relative_consensus.py",
+      "sha256": "e68f6b7722ab818793f7afd37950064ac0ef689667c2b4a9c3f706e34b85905b",
+      "size_bytes": 1325
+    },
+    {
+      "path": "models/linear_verifier.py",
+      "sha256": "7abe7d8ce9155d2f00be26d8b75153b32c0d23d21f7b8a0823f178be4beb3255",
+      "size_bytes": 1405
+    },
+    {
+      "path": "models/numeric_plausibility.py",
+      "sha256": "3d2da8f3fc2656b1868dd242131c930eff89e08f7e04aa923a005bd02d09a6d1",
+      "size_bytes": 1657
+    },
+    {
+      "path": "models/occurrence_plausibility_verifier.py",
+      "sha256": "3ce2ccc923737b726754d6be78da3ce8ffc370ef28a2659ef5886d62fa65c16b",
+      "size_bytes": 1600
+    },
+    {
+      "path": "models/omitted_factor.py",
+      "sha256": "bb82b718fa13dee2712c05941c247f4460d51f45cbca674d21e366d146737dbc",
+      "size_bytes": 4074
+    },
+    {
+      "path": "models/parseable_group_verifier.py",
+      "sha256": "60db43fb9fc9a5809b9762b5eae430116e068bf4572c9c16c72993320805e017",
+      "size_bytes": 1929
+    },
+    {
+      "path": "models/reasoning_density_verifier.py",
+      "sha256": "940fa83ca3ce18dde4f31a4c2d27afd105622151c00282f36683c8030b54f668",
+      "size_bytes": 2303
+    },
+    {
+      "path": "models/robust_semantic_verifier.py",
+      "sha256": "2ab1723331a9e6ba4a820b2623b92a200e8c1792f116ab4e89486b5437234921",
+      "size_bytes": 2532
+    },
+    {
+      "path": "models/semantic_rank_features.py",
+      "sha256": "69efceaf752fa22bea1d0b696dc08566bcbfb4be8b8af81ebc249cdec26f89db",
+      "size_bytes": 1988
+    },
+    {
+      "path": "models/stable_signal_features.py",
+      "sha256": "7553e09dff4310278b494863aa36a433ac67abd027980d8877857ddc381279dc",
+      "size_bytes": 2659
+    },
+    {
+      "path": "models/stable_signal_verifier.py",
+      "sha256": "e2a2215dcdfd98cc17e3fc2714bff898cd2bd13194948c774b98a07ca83eef9a",
+      "size_bytes": 1183
+    },
+    {
+      "path": "models/structure_text_fusion_verifier.py",
+      "sha256": "953c3f26cab09cafa9e82dbaa12a21f51a8035e36313a8db2bd2a9ae6c4b8647",
+      "size_bytes": 2367
+    },
+    {
+      "path": "models/target_alignment.py",
+      "sha256": "34714662dfc935b4c572b3fc9e358acdc371fafde04a9329f162ed39f43bd1fe",
+      "size_bytes": 1062
+    },
+    {
+      "path": "models/target_omitted_factor_verifier.py",
+      "sha256": "e5e1fa8dcc7b02cae931393d84c75937dad260f857196ca0294c8e966b59e088",
+      "size_bytes": 1662
+    },
+    {
+      "path": "models/terminal_dependency_features.py",
+      "sha256": "cffdadfb77469303c08003ab8bbd5a535014aca9b1a65c82f7c630fc159361d0",
+      "size_bytes": 4214
+    },
+    {
+      "path": "submission.py",
+      "sha256": "445d978256a2ae6d12bc0274ab781d687aea13c18dd80c7f1cf20447cdaee4ab",
+      "size_bytes": 661
+    }
+  ]
+}

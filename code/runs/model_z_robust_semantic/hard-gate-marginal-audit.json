@@ -1,0 +1,92 @@
+{
+  "protocol_note": "train OOF and validation only; test references sealed",
+  "all_gates_minus_no_gates": {
+    "oof_correct_deltas": [
+      21,
+      20,
+      18,
+      20,
+      19
+    ],
+    "validation_correct_delta": 7,
+    "validation_answer_group_changes": 7
+  },
+  "gates": {
+    "unanimous_broad_arithmetic": {
+      "leave_one_out_oof_correct_contribution": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "add_alone_oof_correct_contribution": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "leave_one_out_validation_correct_contribution": 1,
+      "add_alone_validation_correct_contribution": 1,
+      "leave_one_out_validation_answer_group_changes": 1
+    },
+    "fractional_answer": {
+      "leave_one_out_oof_correct_contribution": [
+        13,
+        12,
+        10,
+        11,
+        9
+      ],
+      "add_alone_oof_correct_contribution": [
+        13,
+        12,
+        10,
+        11,
+        9
+      ],
+      "leave_one_out_validation_correct_contribution": 4,
+      "add_alone_validation_correct_contribution": 4,
+      "leave_one_out_validation_answer_group_changes": 4
+    },
+    "safe_nonpositive_answer": {
+      "leave_one_out_oof_correct_contribution": [
+        5,
+        5,
+        5,
+        6,
+        7
+      ],
+      "add_alone_oof_correct_contribution": [
+        5,
+        5,
+        5,
+        6,
+        7
+      ],
+      "leave_one_out_validation_correct_contribution": 2,
+      "add_alone_validation_correct_contribution": 2,
+      "leave_one_out_validation_answer_group_changes": 2
+    },
+    "explicit_final_declaration_conflict": {
+      "leave_one_out_oof_correct_contribution": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "add_alone_oof_correct_contribution": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "leave_one_out_validation_correct_contribution": 0,
+      "add_alone_validation_correct_contribution": 0,
+      "leave_one_out_validation_answer_group_changes": 0
+    }
+  }
+}

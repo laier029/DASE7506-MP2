@@ -1,0 +1,521 @@
+{
+  "protocol_note": "pre-test audit; no test inputs or references opened",
+  "passed": true,
+  "checks_passed": 128,
+  "asset_bytes": 1575004,
+  "test_output_files": [],
+  "checks": [
+    {
+      "check": "test not used",
+      "passed": true
+    },
+    {
+      "check": "validation 768/798",
+      "passed": true
+    },
+    {
+      "check": "direct validation 768/798",
+      "passed": true
+    },
+    {
+      "check": "prediction protocol and split fields",
+      "passed": true
+    },
+    {
+      "check": "prediction lengths and unique IDs",
+      "passed": true
+    },
+    {
+      "check": "prediction choices are native integers in range",
+      "passed": true
+    },
+    {
+      "check": "prediction ID order matches",
+      "passed": true
+    },
+    {
+      "check": "direct and frozen submission choices match",
+      "passed": true
+    },
+    {
+      "check": "one-thread and four-thread choices match",
+      "passed": true
+    },
+    {
+      "check": "selected payload SHA-256",
+      "passed": true
+    },
+    {
+      "check": "five OOF deltas match frozen record",
+      "passed": true
+    },
+    {
+      "check": "every OOF scheme improves",
+      "passed": true
+    },
+    {
+      "check": "hard-gate OOF marginal matches frozen record",
+      "passed": true
+    },
+    {
+      "check": "hard-gate validation marginal is +7",
+      "passed": true
+    },
+    {
+      "check": "validation short circuit is 443/443",
+      "passed": true
+    },
+    {
+      "check": "natural hard filters never remove every group",
+      "passed": true
+    },
+    {
+      "check": "five candidate-reordering seeds preserve answer groups",
+      "passed": true
+    },
+    {
+      "check": "fresh rebuild reproduces frozen selections",
+      "passed": true
+    },
+    {
+      "check": "fresh rebuild reproduces frozen asset hashes",
+      "passed": true
+    },
+    {
+      "check": "runtime project modules are covered by the source manifest",
+      "passed": true
+    },
+    {
+      "check": "model.npz size",
+      "passed": true
+    },
+    {
+      "check": "model.npz SHA-256",
+      "passed": true
+    },
+    {
+      "check": "structure_text_model.joblib size",
+      "passed": true
+    },
+    {
+      "check": "structure_text_model.joblib SHA-256",
+      "passed": true
+    },
+    {
+      "check": "asset byte total",
+      "passed": true
+    },
+    {
+      "check": "assets at most 16 MiB",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: common.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: common.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: common.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/answer_step_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/answer_step_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/answer_step_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/arithmetic_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/arithmetic_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/arithmetic_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/broad_arithmetic_group_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/broad_arithmetic_group_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/broad_arithmetic_group_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/calculation_coverage.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/calculation_coverage.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/calculation_coverage.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/cascade_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/cascade_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/cascade_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/coverage_cascade_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/coverage_cascade_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/coverage_cascade_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/declared_answer_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/declared_answer_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/declared_answer_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/final_declaration_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/final_declaration_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/final_declaration_consistency.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/fused_answer_step_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/fused_answer_step_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/fused_answer_step_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/fused_arithmetic_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/fused_arithmetic_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/fused_arithmetic_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/fused_relative_consensus.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/fused_relative_consensus.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/fused_relative_consensus.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/linear_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/linear_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/linear_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/numeric_plausibility.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/numeric_plausibility.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/numeric_plausibility.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/occurrence_plausibility_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/occurrence_plausibility_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/occurrence_plausibility_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/omitted_factor.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/omitted_factor.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/omitted_factor.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/parseable_group_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/parseable_group_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/parseable_group_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/reasoning_density_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/reasoning_density_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/reasoning_density_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/robust_semantic_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/robust_semantic_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/robust_semantic_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/semantic_rank_features.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/semantic_rank_features.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/semantic_rank_features.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/stable_signal_features.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/stable_signal_features.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/stable_signal_features.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/stable_signal_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/stable_signal_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/stable_signal_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/structure_text_fusion_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/structure_text_fusion_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/structure_text_fusion_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/target_alignment.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/target_alignment.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/target_alignment.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/target_omitted_factor_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/target_omitted_factor_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/target_omitted_factor_verifier.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: models/terminal_dependency_features.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: models/terminal_dependency_features.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: models/terminal_dependency_features.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: submission.py",
+      "passed": true
+    },
+    {
+      "check": "manifest size: submission.py",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: submission.py",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: runs/model_z_robust_semantic/model.npz",
+      "passed": true
+    },
+    {
+      "check": "manifest size: runs/model_z_robust_semantic/model.npz",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: runs/model_z_robust_semantic/model.npz",
+      "passed": true
+    },
+    {
+      "check": "manifest file exists: runs/model_z_robust_semantic/structure_text_model.joblib",
+      "passed": true
+    },
+    {
+      "check": "manifest size: runs/model_z_robust_semantic/structure_text_model.joblib",
+      "passed": true
+    },
+    {
+      "check": "manifest hash: runs/model_z_robust_semantic/structure_text_model.joblib",
+      "passed": true
+    },
+    {
+      "check": "inference sources contain no reference loaders, test names, or public-bank counts",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: check_data.py",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: common.py",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: predict.py",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: score_predictions.py",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: data/LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: data/NOTICE.txt",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: data/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: data/candidates/gsm8k_train.jsonl",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: data/candidates/gsm8k_train.npz",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: data/candidates/gsm8k_validation.jsonl",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: data/candidates/gsm8k_validation.npz",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: data/gsm8k_train.jsonl",
+      "passed": true
+    },
+    {
+      "check": "original fixed file hash: data/gsm8k_validation.jsonl",
+      "passed": true
+    },
+    {
+      "check": "no test prediction or score outputs",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "protocol_note": "train OOF and validation only; test sealed",
+  "comparison": "all four hard gates versus no hard gates",
+  "structures": {
+    "4": {
+      "train_rows": 2242,
+      "oof": [
+        {
+          "correct_delta": 0,
+          "fixes": 0,
+          "harms": 0
+        },
+        {
+          "correct_delta": 0,
+          "fixes": 0,
+          "harms": 0
+        },
+        {
+          "correct_delta": 0,
+          "fixes": 0,
+          "harms": 0
+        },
+        {
+          "correct_delta": 0,
+          "fixes": 0,
+          "harms": 0
+        },
+        {
+          "correct_delta": 0,
+          "fixes": 0,
+          "harms": 0
+        }
+      ],
+      "validation_rows": 379,
+      "validation": {
+        "correct_delta": 0,
+        "fixes": 0,
+        "harms": 0
+      }
+    },
+    "3-1": {
+      "train_rows": 1240,
+      "oof": [
+        {
+          "correct_delta": 5,
+          "fixes": 5,
+          "harms": 0
+        },
+        {
+          "correct_delta": 5,
+          "fixes": 5,
+          "harms": 0
+        },
+        {
+          "correct_delta": 5,
+          "fixes": 5,
+          "harms": 0
+        },
+        {
+          "correct_delta": 6,
+          "fixes": 6,
+          "harms": 0
+        },
+        {
+          "correct_delta": 6,
+          "fixes": 6,
+          "harms": 0
+        }
+      ],
+      "validation_rows": 204,
+      "validation": {
+        "correct_delta": 1,
+        "fixes": 1,
+        "harms": 0
+      }
+    },
+    "2-2": {
+      "train_rows": 272,
+      "oof": [
+        {
+          "correct_delta": 3,
+          "fixes": 3,
+          "harms": 0
+        },
+        {
+          "correct_delta": 3,
+          "fixes": 3,
+          "harms": 0
+        },
+        {
+          "correct_delta": 3,
+          "fixes": 3,
+          "harms": 0
+        },
+        {
+          "correct_delta": 3,
+          "fixes": 3,
+          "harms": 0
+        },
+        {
+          "correct_delta": 3,
+          "fixes": 3,
+          "harms": 0
+        }
+      ],
+      "validation_rows": 45,
+      "validation": {
+        "correct_delta": 2,
+        "fixes": 2,
+        "harms": 0
+      }
+    },
+    "2-1-1": {
+      "train_rows": 721,
+      "oof": [
+        {
+          "correct_delta": 10,
+          "fixes": 10,
+          "harms": 0
+        },
+        {
+          "correct_delta": 10,
+          "fixes": 10,
+          "harms": 0
+        },
+        {
+          "correct_delta": 7,
+          "fixes": 7,
+          "harms": 0
+        },
+        {
+          "correct_delta": 7,
+          "fixes": 7,
+          "harms": 0
+        },
+        {
+          "correct_delta": 8,
+          "fixes": 8,
+          "harms": 0
+        }
+      ],
+      "validation_rows": 130,
+      "validation": {
+        "correct_delta": 1,
+        "fixes": 1,
+        "harms": 0
+      }
+    },
+    "1-1-1-1": {
+      "train_rows": 280,
+      "oof": [
+        {
+          "correct_delta": 3,
+          "fixes": 3,
+          "harms": 0
+        },
+        {
+          "correct_delta": 2,
+          "fixes": 2,
+          "harms": 0
+        },
+        {
+          "correct_delta": 3,
+          "fixes": 3,
+          "harms": 0
+        },
+        {
+          "correct_delta": 4,
+          "fixes": 4,
+          "harms": 0
+        },
+        {
+          "correct_delta": 2,
+          "fixes": 2,
+          "harms": 0
+        }
+      ],
+      "validation_rows": 40,
+      "validation": {
+        "correct_delta": 3,
+        "fixes": 3,
+        "harms": 0
+      }
+    }
+  }
+}

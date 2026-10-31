@@ -1,0 +1,374 @@
+{
+  "protocol_note": "fixed grid selected on primary OOF; four extra OOF schemes for robustness; validation descriptive; test sealed",
+  "weights_are_candidate_score_penalties": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "gates": {
+    "unanimous_broad_arithmetic": {
+      "hard_oof_correct_deltas_over_without_gate": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "hard_validation_correct_delta_over_without_gate": 1,
+      "selected_by_primary_oof_weight": 1.0,
+      "soft_trials": [
+        {
+          "weight": 0.0,
+          "oof_correct_deltas_over_without_gate": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 0.1,
+          "oof_correct_deltas_over_without_gate": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 0.25,
+          "oof_correct_deltas_over_without_gate": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 0.5,
+          "oof_correct_deltas_over_without_gate": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 1.0,
+          "oof_correct_deltas_over_without_gate": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 2.0,
+          "oof_correct_deltas_over_without_gate": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "validation_correct_delta_over_without_gate": 1
+        },
+        {
+          "weight": 4.0,
+          "oof_correct_deltas_over_without_gate": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "validation_correct_delta_over_without_gate": 1
+        }
+      ]
+    },
+    "fractional_answer": {
+      "hard_oof_correct_deltas_over_without_gate": [
+        13,
+        12,
+        10,
+        11,
+        9
+      ],
+      "hard_validation_correct_delta_over_without_gate": 4,
+      "selected_by_primary_oof_weight": 4.0,
+      "soft_trials": [
+        {
+          "weight": 0.0,
+          "oof_correct_deltas_over_without_gate": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 0.1,
+          "oof_correct_deltas_over_without_gate": [
+            3,
+            2,
+            2,
+            2,
+            1
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 0.25,
+          "oof_correct_deltas_over_without_gate": [
+            4,
+            5,
+            3,
+            4,
+            1
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 0.5,
+          "oof_correct_deltas_over_without_gate": [
+            7,
+            7,
+            3,
+            7,
+            3
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 1.0,
+          "oof_correct_deltas_over_without_gate": [
+            10,
+            9,
+            7,
+            8,
+            5
+          ],
+          "validation_correct_delta_over_without_gate": 3
+        },
+        {
+          "weight": 2.0,
+          "oof_correct_deltas_over_without_gate": [
+            12,
+            10,
+            8,
+            9,
+            7
+          ],
+          "validation_correct_delta_over_without_gate": 4
+        },
+        {
+          "weight": 4.0,
+          "oof_correct_deltas_over_without_gate": [
+            13,
+            12,
+            10,
+            11,
+            9
+          ],
+          "validation_correct_delta_over_without_gate": 4
+        }
+      ]
+    },
+    "safe_nonpositive_answer": {
+      "hard_oof_correct_deltas_over_without_gate": [
+        5,
+        5,
+        5,
+        6,
+        7
+      ],
+      "hard_validation_correct_delta_over_without_gate": 2,
+      "selected_by_primary_oof_weight": 4.0,
+      "soft_trials": [
+        {
+          "weight": 0.0,
+          "oof_correct_deltas_over_without_gate": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 0.1,
+          "oof_correct_deltas_over_without_gate": [
+            1,
+            0,
+            1,
+            2,
+            0
+          ],
+          "validation_correct_delta_over_without_gate": 1
+        },
+        {
+          "weight": 0.25,
+          "oof_correct_deltas_over_without_gate": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "validation_correct_delta_over_without_gate": 1
+        },
+        {
+          "weight": 0.5,
+          "oof_correct_deltas_over_without_gate": [
+            1,
+            1,
+            2,
+            3,
+            2
+          ],
+          "validation_correct_delta_over_without_gate": 1
+        },
+        {
+          "weight": 1.0,
+          "oof_correct_deltas_over_without_gate": [
+            3,
+            3,
+            3,
+            4,
+            4
+          ],
+          "validation_correct_delta_over_without_gate": 1
+        },
+        {
+          "weight": 2.0,
+          "oof_correct_deltas_over_without_gate": [
+            3,
+            3,
+            3,
+            4,
+            4
+          ],
+          "validation_correct_delta_over_without_gate": 1
+        },
+        {
+          "weight": 4.0,
+          "oof_correct_deltas_over_without_gate": [
+            5,
+            5,
+            5,
+            6,
+            7
+          ],
+          "validation_correct_delta_over_without_gate": 2
+        }
+      ]
+    },
+    "explicit_final_declaration_conflict": {
+      "hard_oof_correct_deltas_over_without_gate": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hard_validation_correct_delta_over_without_gate": 0,
+      "selected_by_primary_oof_weight": 2.0,
+      "soft_trials": [
+        {
+          "weight": 0.0,
+          "oof_correct_deltas_over_without_gate": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 0.1,
+          "oof_correct_deltas_over_without_gate": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 0.25,
+          "oof_correct_deltas_over_without_gate": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 0.5,
+          "oof_correct_deltas_over_without_gate": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 1.0,
+          "oof_correct_deltas_over_without_gate": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 2.0,
+          "oof_correct_deltas_over_without_gate": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        },
+        {
+          "weight": 4.0,
+          "oof_correct_deltas_over_without_gate": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "validation_correct_delta_over_without_gate": 0
+        }
+      ]
+    }
+  }
+}

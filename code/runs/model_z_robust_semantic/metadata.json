@@ -1,0 +1,113 @@
+{
+  "protocol": "dase7506-mp2-open-hard-verifier-v5",
+  "status": "postfreeze_test_evaluated_no_further_tuning",
+  "method": "model_z_precision_first_cascade_with_robust_semantic_survivor_signals",
+  "training_split": "train",
+  "validation_split": "validation",
+  "test_split_used_for_selection": false,
+  "postfreeze_test_evaluation": {
+    "prediction_runs": 1,
+    "scoring_runs": 1,
+    "correct": 384,
+    "n": 467,
+    "accuracy": 82.22698072805139,
+    "prediction_seconds_four_threads": 1.8322575840011268,
+    "wall_seconds_four_threads": 1.94,
+    "scoring_seconds": 0.010464999999385327,
+    "selected_payload_sha256": "2fd1c85dda6d7bde1634a5c696212f7cf9ed3d62c2b5a48760ce5c509de7c120",
+    "no_further_method_or_checkpoint_tuning": true
+  },
+  "development_machine": {
+    "os": "macOS Darwin 25.6.0 arm64",
+    "cpu": "Apple M5 Pro",
+    "memory_bytes": 51539607552,
+    "python": "3.12.10"
+  },
+  "development_dependency_versions": {
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "oof_schemes": 5,
+  "remainder_answer_rank_weights": {
+    "2-2_and_2-1-1": -0.1,
+    "other_structures": -0.025
+  },
+  "cumulative_terminal_dependency_weights": {
+    "3-1": 0.5,
+    "other_structures": 0.4
+  },
+  "oof_correct_deltas_over_model_x": [10, 7, 8, 8, 5],
+  "oof_fixes_over_model_x": [12, 12, 14, 10, 10],
+  "oof_harms_over_model_x": [2, 5, 6, 2, 5],
+  "validation_answer_group_changes_over_model_x": 1,
+  "validation_correct": 768,
+  "validation_n": 798,
+  "validation_accuracy": 96.2406015037594,
+  "validation_unique_parseable_group_short_circuit": 443,
+  "validation_full_verifier_rows": 355,
+  "submission_prediction_seconds_four_threads": 1.4794614169998113,
+  "wall_seconds_four_threads": 1.57,
+  "peak_process_rss_bytes": 223756288,
+  "scoring_seconds": 0.015479749999940395,
+  "selected_payload_sha256": "a6a78395f1b91882befed1311db7f31b2b07b3d358f24a7fec1172036f677f30",
+  "train_input_stress_run": {
+    "input_rows": 4755,
+    "full_verifier_rows": 2114,
+    "prediction_seconds_four_threads": 6.236602334000054,
+    "wall_seconds_four_threads": 6.34,
+    "peak_process_rss_bytes": 598343680,
+    "prediction_references_read": false,
+    "scoring_seconds": 0.09430958299981285,
+    "scoring_wall_seconds": 0.15,
+    "combined_wall_seconds": 6.49
+  },
+  "hard_gates_minus_no_gates": {
+    "oof_correct_deltas": [21, 20, 18, 20, 19],
+    "validation_correct_delta": 7,
+    "validation_correct_deltas_by_answer_structure": {
+      "4": 0,
+      "3-1": 1,
+      "2-2": 2,
+      "2-1-1": 1,
+      "1-1-1-1": 3
+    }
+  },
+  "asset_bytes_uncompressed": 1575004,
+  "safe_fallbacks": [
+    "restore all parseable groups if hard filters remove every group",
+    "preserve the scored choice when boxed endorsements are missing conflicting or protocol-invisible"
+  ],
+  "pretest_freeze_checks_passed": 128,
+  "audit_artifacts": [
+    "oof-audit.json",
+    "gate-precision-audit.json",
+    "hard-gate-marginal-audit.json",
+    "hard-gate-structure-audit.json",
+    "gate-soft-vs-hard.json",
+    "fallback-audit.json",
+    "short-circuit-audit.json",
+    "order-invariance-audit.json",
+    "rebuild-audit.json",
+    "runtime-dependency-audit.json",
+    "source-manifest.json",
+    "validation-analysis.json",
+    "validation-error-catalog.json",
+    "validation-error-taxonomy.json",
+    "pretest-freeze-audit.json",
+    "test-freeze.json",
+    "test-evaluation.json"
+  ],
+  "assets": {
+    "model.npz": {
+      "bytes": 15473,
+      "sha256": "4d9e50ace57b75d744bf37965288754339457f22f17ca955143a67a0d3999cb6"
+    },
+    "structure_text_model.joblib": {
+      "bytes": 1559531,
+      "sha256": "9cd78234fc5d8b22819df9b2d843739bc2c6077d2ebc8695312d0e3102e11586"
+    }
+  }
+}

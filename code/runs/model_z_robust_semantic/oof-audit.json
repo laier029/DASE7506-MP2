@@ -1,0 +1,54 @@
+{
+  "protocol_note": "train OOF and validation only; test references sealed",
+  "oof_correct_deltas_model_z_over_x": [
+    10,
+    7,
+    8,
+    8,
+    5
+  ],
+  "oof_fixes": [
+    12,
+    12,
+    14,
+    10,
+    10
+  ],
+  "oof_harms": [
+    2,
+    5,
+    6,
+    2,
+    5
+  ],
+  "oof_candidate_index_changes": [
+    43,
+    42,
+    45,
+    40,
+    40
+  ],
+  "oof_answer_group_changes": [
+    16,
+    17,
+    21,
+    14,
+    16
+  ],
+  "validation_correct_delta_model_z_over_x": 1,
+  "validation_fixes": 1,
+  "validation_harms": 0,
+  "validation_candidate_index_changes": [
+    120,
+    172,
+    186,
+    194,
+    341,
+    617,
+    632,
+    791
+  ],
+  "validation_answer_group_changes": [
+    617
+  ]
+}

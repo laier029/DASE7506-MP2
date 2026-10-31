@@ -1,0 +1,188 @@
+{
+  "protocol_note": "one frozen adjustment: pool five train OOF router datasets with per-question weight normalization; five new train OOF seeds audit the unchanged gate; validation is checked only after audit pass; test data are not opened",
+  "only_adjustment": "router fit source changed from one OOF dataset to five pooled OOF datasets; expert models and all decision gates are unchanged",
+  "pool_seeds": [
+    7506,
+    11,
+    29,
+    47,
+    83
+  ],
+  "audit_seeds": [
+    1103,
+    1201,
+    1301,
+    1409,
+    1511
+  ],
+  "frozen_gate": {
+    "member_threshold": 0.6,
+    "min_member_votes": 5,
+    "max_base_margin": 7.175619125366211
+  },
+  "router_members": [
+    {
+      "feature_set": "compact",
+      "c": 0.1,
+      "class_weight": null
+    },
+    {
+      "feature_set": "compact",
+      "c": 1.0,
+      "class_weight": "balanced"
+    },
+    {
+      "feature_set": "with_target_text",
+      "c": 0.1,
+      "class_weight": null
+    },
+    {
+      "feature_set": "with_target_text",
+      "c": 0.1,
+      "class_weight": "balanced"
+    },
+    {
+      "feature_set": "with_target_text",
+      "c": 1.0,
+      "class_weight": null
+    },
+    {
+      "feature_set": "with_target_text",
+      "c": 1.0,
+      "class_weight": "balanced"
+    }
+  ],
+  "audit": {
+    "passed": true,
+    "summary": {
+      "deltas": [
+        9,
+        8,
+        5,
+        10,
+        13
+      ],
+      "min_delta": 5,
+      "positive_seeds": 5,
+      "total_delta": 45,
+      "total_switches": 149,
+      "total_fixes": 92,
+      "total_harms": 47,
+      "effective_switches": 139,
+      "pooled_switch_precision": 0.6618705035971223,
+      "precision_wilson_lower_95_one_sided": 0.5933394366844696
+    },
+    "per_seed": [
+      {
+        "base_correct": 4415,
+        "proposed_correct": 4424,
+        "delta": 9,
+        "switches": 29,
+        "fixes": 18,
+        "harms": 9,
+        "neutral_switches": 2,
+        "switch_precision": 0.6666666666666666,
+        "structure_deltas": {
+          "1-1-1-1": 7,
+          "2-1-1": 2,
+          "2-2": 0,
+          "3-1": 0,
+          "4": 0
+        },
+        "seed": 1103
+      },
+      {
+        "base_correct": 4425,
+        "proposed_correct": 4433,
+        "delta": 8,
+        "switches": 30,
+        "fixes": 18,
+        "harms": 10,
+        "neutral_switches": 2,
+        "switch_precision": 0.6428571428571429,
+        "structure_deltas": {
+          "1-1-1-1": 6,
+          "2-1-1": 2,
+          "2-2": 0,
+          "3-1": 0,
+          "4": 0
+        },
+        "seed": 1201
+      },
+      {
+        "base_correct": 4418,
+        "proposed_correct": 4423,
+        "delta": 5,
+        "switches": 27,
+        "fixes": 14,
+        "harms": 9,
+        "neutral_switches": 4,
+        "switch_precision": 0.6086956521739131,
+        "structure_deltas": {
+          "1-1-1-1": 4,
+          "2-1-1": 1,
+          "2-2": 0,
+          "3-1": 0,
+          "4": 0
+        },
+        "seed": 1301
+      },
+      {
+        "base_correct": 4428,
+        "proposed_correct": 4438,
+        "delta": 10,
+        "switches": 35,
+        "fixes": 22,
+        "harms": 12,
+        "neutral_switches": 1,
+        "switch_precision": 0.6470588235294118,
+        "structure_deltas": {
+          "1-1-1-1": 9,
+          "2-1-1": 1,
+          "2-2": 0,
+          "3-1": 0,
+          "4": 0
+        },
+        "seed": 1409
+      },
+      {
+        "base_correct": 4423,
+        "proposed_correct": 4436,
+        "delta": 13,
+        "switches": 28,
+        "fixes": 20,
+        "harms": 7,
+        "neutral_switches": 1,
+        "switch_precision": 0.7407407407407407,
+        "structure_deltas": {
+          "1-1-1-1": 7,
+          "2-1-1": 6,
+          "2-2": 0,
+          "3-1": 0,
+          "4": 0
+        },
+        "seed": 1511
+      }
+    ]
+  },
+  "validation": {
+    "base_correct": 768,
+    "proposed_correct": 768,
+    "delta": 0,
+    "switches": 4,
+    "fixes": 2,
+    "harms": 2,
+    "neutral_switches": 0,
+    "switch_precision": 0.5,
+    "structure_deltas": {
+      "1-1-1-1": 0,
+      "2-1-1": 0,
+      "2-2": 0,
+      "3-1": 0,
+      "4": 0
+    }
+  },
+  "accepted_as_final_candidate": true,
+  "decision": "Accepted as the final research candidate; productionization and resource checks remain separate.",
+  "wall_seconds": 399.0974409170012
+}

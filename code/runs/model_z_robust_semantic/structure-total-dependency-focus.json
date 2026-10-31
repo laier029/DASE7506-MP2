@@ -1,0 +1,178 @@
+{
+  "protocol_note": "train OOF and validation only; test sealed",
+  "weight": -0.1,
+  "oof": [
+    {
+      "correct_delta": 1,
+      "fixes": [
+        2242
+      ],
+      "harms": [],
+      "candidate_changes": [
+        160,
+        334,
+        586,
+        1264,
+        1444,
+        1780,
+        2129,
+        2242,
+        2968,
+        3077,
+        3671,
+        3769,
+        4277,
+        4463,
+        4619
+      ],
+      "answer_group_changes": [
+        2242
+      ]
+    },
+    {
+      "correct_delta": 0,
+      "fixes": [
+        678,
+        3437,
+        3801
+      ],
+      "harms": [
+        586,
+        686,
+        768
+      ],
+      "candidate_changes": [
+        160,
+        334,
+        564,
+        586,
+        678,
+        686,
+        768,
+        1036,
+        1444,
+        1759,
+        2359,
+        2564,
+        2577,
+        2592,
+        3437,
+        3550,
+        3801,
+        4250,
+        4277,
+        4463,
+        4619
+      ],
+      "answer_group_changes": [
+        586,
+        678,
+        686,
+        768,
+        3437,
+        3801
+      ]
+    },
+    {
+      "correct_delta": 1,
+      "fixes": [
+        678,
+        2242
+      ],
+      "harms": [
+        586
+      ],
+      "candidate_changes": [
+        160,
+        586,
+        678,
+        1780,
+        2129,
+        2242,
+        2564,
+        2577,
+        2592,
+        3306,
+        3671,
+        3769,
+        3845,
+        4250,
+        4277,
+        4463,
+        4619
+      ],
+      "answer_group_changes": [
+        586,
+        678,
+        2242
+      ]
+    },
+    {
+      "correct_delta": 0,
+      "fixes": [
+        678,
+        3437
+      ],
+      "harms": [
+        686,
+        768
+      ],
+      "candidate_changes": [
+        160,
+        359,
+        586,
+        678,
+        686,
+        768,
+        1444,
+        1622,
+        1759,
+        2129,
+        2257,
+        2564,
+        3437,
+        4212,
+        4277
+      ],
+      "answer_group_changes": [
+        678,
+        686,
+        768,
+        3437
+      ]
+    },
+    {
+      "correct_delta": 1,
+      "fixes": [
+        3437
+      ],
+      "harms": [],
+      "candidate_changes": [
+        24,
+        160,
+        334,
+        1273,
+        1444,
+        1909,
+        2129,
+        2592,
+        2968,
+        3437,
+        4277
+      ],
+      "answer_group_changes": [
+        3437
+      ]
+    }
+  ],
+  "validation": {
+    "correct_delta": 0,
+    "fixes": [],
+    "harms": [],
+    "candidate_changes": [
+      183,
+      260
+    ],
+    "answer_group_changes": []
+  }
+}

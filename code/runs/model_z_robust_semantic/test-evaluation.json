@@ -1,0 +1,27 @@
+{
+  "evaluation_date_hong_kong": "2026-10-29",
+  "protocol": "dase7506-mp2-open-hard-verifier-v5",
+  "split": "test",
+  "method": "Model Z frozen before test",
+  "prediction_runs": 1,
+  "scoring_runs": 1,
+  "correct": 384,
+  "n": 467,
+  "accuracy": 82.22698072805139,
+  "prediction_seconds_internal": 1.8322575840011268,
+  "prediction_wall_seconds": 1.94,
+  "peak_process_rss_bytes": 227753984,
+  "scoring_seconds_internal": 0.010464999999385327,
+  "selected_payload_sha256": "2fd1c85dda6d7bde1634a5c696212f7cf9ed3d62c2b5a48760ce5c509de7c120",
+  "frozen_source_and_assets_verified_unchanged_after_test": true,
+  "no_further_method_or_checkpoint_tuning": true,
+  "sha256": {
+    "test-freeze.json": "95c63acb133994ce998e6723ff3df05683b0800cd300f01388b4b48ec9bbe13a",
+    "test-predictions.json": "24f5c0b01d345558fca04474a292133ce0ab18f33dffc0287b9a2c045752c4a7",
+    "test-score.json": "94aa265ce84670a38a223757c6937af2d974ed376cbf9fb38ddbbfe94e1f3329",
+    "test-time.txt": "0ca74010e639b5b432c7f7a26fd4c33d08ee669ca83fb122fda5ef2c9e642d25",
+    "submission.py": "445d978256a2ae6d12bc0274ab781d687aea13c18dd80c7f1cf20447cdaee4ab",
+    "model.npz": "4d9e50ace57b75d744bf37965288754339457f22f17ca955143a67a0d3999cb6",
+    "structure_text_model.joblib": "9cd78234fc5d8b22819df9b2d843739bc2c6077d2ebc8695312d0e3102e11586"
+  }
+}

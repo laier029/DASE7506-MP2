@@ -1,0 +1,184 @@
+{
+  "protocol_note": "validation diagnostics only; test references sealed",
+  "stage_correct": {
+    "m": 749,
+    "n": 750,
+    "o": 757,
+    "p": 761,
+    "q": 763,
+    "r": 765,
+    "s": 765,
+    "t": 766,
+    "u": 766,
+    "x": 767,
+    "z": 768
+  },
+  "stage_transitions": {
+    "m_to_n": {
+      "candidate_index_changes": 1,
+      "answer_group_changes": 1,
+      "fixes": 1,
+      "harms": 0,
+      "net": 1
+    },
+    "n_to_o": {
+      "candidate_index_changes": 11,
+      "answer_group_changes": 9,
+      "fixes": 8,
+      "harms": 1,
+      "net": 7
+    },
+    "o_to_p": {
+      "candidate_index_changes": 4,
+      "answer_group_changes": 4,
+      "fixes": 4,
+      "harms": 0,
+      "net": 4
+    },
+    "p_to_q": {
+      "candidate_index_changes": 2,
+      "answer_group_changes": 2,
+      "fixes": 2,
+      "harms": 0,
+      "net": 2
+    },
+    "q_to_r": {
+      "candidate_index_changes": 2,
+      "answer_group_changes": 2,
+      "fixes": 2,
+      "harms": 0,
+      "net": 2
+    },
+    "r_to_s": {
+      "candidate_index_changes": 0,
+      "answer_group_changes": 0,
+      "fixes": 0,
+      "harms": 0,
+      "net": 0
+    },
+    "s_to_t": {
+      "candidate_index_changes": 1,
+      "answer_group_changes": 1,
+      "fixes": 1,
+      "harms": 0,
+      "net": 1
+    },
+    "t_to_u": {
+      "candidate_index_changes": 1,
+      "answer_group_changes": 0,
+      "fixes": 0,
+      "harms": 0,
+      "net": 0
+    },
+    "u_to_x": {
+      "candidate_index_changes": 1,
+      "answer_group_changes": 1,
+      "fixes": 1,
+      "harms": 0,
+      "net": 1
+    },
+    "x_to_z": {
+      "candidate_index_changes": 319,
+      "answer_group_changes": 1,
+      "fixes": 1,
+      "harms": 0,
+      "net": 1
+    }
+  },
+  "accuracy_by_structure": {
+    "1-1-1-1": {
+      "correct": 34,
+      "n": 40,
+      "accuracy": 0.85
+    },
+    "2-1-1": {
+      "correct": 117,
+      "n": 130,
+      "accuracy": 0.9
+    },
+    "2-2": {
+      "correct": 41,
+      "n": 45,
+      "accuracy": 0.9111111111111111
+    },
+    "3-1": {
+      "correct": 197,
+      "n": 204,
+      "accuracy": 0.9656862745098039
+    },
+    "4": {
+      "correct": 379,
+      "n": 379,
+      "accuracy": 1.0
+    }
+  },
+  "confidence_by_final_group_margin": {
+    "negative": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "0_to_0.25": {
+      "correct": 13,
+      "n": 17,
+      "accuracy": 0.7647058823529411
+    },
+    "0.25_to_0.5": {
+      "correct": 9,
+      "n": 13,
+      "accuracy": 0.6923076923076923
+    },
+    "0.5_to_1": {
+      "correct": 34,
+      "n": 41,
+      "accuracy": 0.8292682926829268
+    },
+    "1_to_2": {
+      "correct": 55,
+      "n": 63,
+      "accuracy": 0.873015873015873
+    },
+    "2_plus": {
+      "correct": 158,
+      "n": 165,
+      "accuracy": 0.9575757575757575
+    }
+  },
+  "filter_trigger_questions": {
+    "arithmetic": 3,
+    "numeric": 66,
+    "final_declaration": 5
+  },
+  "remaining_error_indices": [
+    22,
+    32,
+    44,
+    90,
+    97,
+    133,
+    161,
+    171,
+    175,
+    206,
+    209,
+    210,
+    275,
+    328,
+    359,
+    362,
+    371,
+    444,
+    454,
+    497,
+    550,
+    586,
+    613,
+    626,
+    661,
+    679,
+    728,
+    739,
+    760,
+    788
+  ]
+}

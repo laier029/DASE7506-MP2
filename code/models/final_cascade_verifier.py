@@ -1,0 +1,29 @@
+"""Model T: the full precision-first cascade and survivor scorer."""
+
+from pathlib import Path
+
+import numpy as np
+
+from coverage_cascade_verifier import coverage_adjusted_scores
+from numeric_plausibility import implausible_answer_groups
+from occurrence_plausibility_verifier import occurrence_adjusted_scores
+from omitted_factor import select_with_omitted_factor_switch
+from structure_text_fusion_verifier import structure_text_scores
+from target_omitted_factor_verifier import target_adjusted_scores
+
+
+def predict(bank, arrays, checkpoint):
+    """Reject high-confidence bad groups, then score and conditionally switch."""
+    checkpoint = Path(checkpoint)
+    scores = structure_text_scores(bank, arrays, checkpoint)
+    scores = coverage_adjusted_scores(bank, scores)
+    scores = occurrence_adjusted_scores(bank, scores)
+    scores = target_adjusted_scores(bank, scores)
+    with np.load(checkpoint / "model.npz", allow_pickle=False) as model:
+        group_mean_weight = float(model["group_mean_weight"].item())
+    return select_with_omitted_factor_switch(
+        bank,
+        scores,
+        group_mean_weight,
+        implausible_answer_groups(bank),
+    )

@@ -1,0 +1,17 @@
+{
+  "protocol_note": "train and validation only; test sealed",
+  "train": {
+    "questions": 4755,
+    "short_circuited": 2641,
+    "fully_verified": 2114,
+    "short_circuit_correct": 2641,
+    "short_circuit_accuracy": 1.0
+  },
+  "validation": {
+    "questions": 798,
+    "short_circuited": 443,
+    "fully_verified": 355,
+    "short_circuit_correct": 443,
+    "short_circuit_accuracy": 1.0
+  }
+}

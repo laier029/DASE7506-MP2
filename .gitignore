@@ -2,6 +2,20 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
-runs/
 .DS_Store
 Thumbs.db
+
+# Keep only the frozen submission checkpoint and the two disclosed post-test
+# diagnostics. Ignore any new local experiment outputs.
+code/runs/*
+!code/runs/model_z_robust_semantic/
+!code/runs/model_z_robust_semantic/**
+!code/runs/diagnostics/
+code/runs/diagnostics/*
+!code/runs/diagnostics/oof-router-ensemble-z2.json
+!code/runs/diagnostics/oof-router-pooled-final.json
+
+# Keep the final report artifacts, not local render intermediates.
+code/report/*
+!code/report/DASE7506_MP2_Model_Z_Report.pdf
+!code/report/DASE7506_MP2_Model_Z_Report.docx

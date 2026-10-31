@@ -1,0 +1,906 @@
+{
+  "protocol_note": "validation errors only; test references sealed",
+  "error_count": 30,
+  "errors": [
+    {
+      "row_index": 22,
+      "id": "gsm8k:8278949f5804b3684c922e60454437d60504a36370de6ec93d69445f5bfadb74",
+      "question": "Eddy\u2019s spider plant produces 2 baby plants 2 times a year.  After 4 years, how many baby plants will the mother plant have produced?",
+      "gold_answer": "16",
+      "selected_candidate": 0,
+      "selected_answer": "8",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "8",
+          "reasoning_tail": "We are told that Eddy\u2019s spider plant produces **2 baby plants 2 times a year**. ### Step 1: Calculate the number of baby plants per year - 2 baby plants per year. ### Step 2: Multiply by the number of years - After 4 years: $ 2 \\text{ baby plants/year} \\times 4 \\text{ years} = 8 \\text{ baby plants} $"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "16",
+          "reasoning_tail": "- Eddy\u2019s spider plant produces **2 baby plants 2 times a year**. - After **4 years**, how many baby plants will the mother plant have produced? ### Step-by-step: - Each year, the plant produces 2 baby plants. - After 1 year: 2 baby plants - After 2 years: 2 \u00d7 2 = 4 baby plants - After 3 years: 2 \u00d7 4 = 8 baby plants - After 4 years: 2 \u00d7 8 = **16 baby plants**"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "4",
+          "reasoning_tail": "Eddy\u2019s spider plant produces 2 baby plants 2 times a year. After 4 years, the mother plant will have produced: $$ 2 \\text{ plants/year} \\times 2 \\text{ years} = \\boxed{4} \\text{ baby plants} $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "4",
+          "reasoning_tail": "Eddy\u2019s spider plant produces 2 baby plants 2 times a year. After 4 years, the mother plant will have produced: $$ 2 \\text{ plants/year} \\times 2 \\text{ years} = \\boxed{4} \\text{ baby plants} $$"
+        }
+      ]
+    },
+    {
+      "row_index": 32,
+      "id": "gsm8k:a43ceff49caf15e088df74a262ff9e052dd2007849dae692d80b5056583ef20f",
+      "question": "Yun had 20 paperclips initially, but then lost 12. Marion has 1/4 more than what Yun currently has, plus 7. How many paperclips does Marion have?",
+      "gold_answer": "9",
+      "selected_candidate": 3,
+      "selected_answer": "17",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "9",
+          "reasoning_tail": "We are given the following information: - Yun had **20 paperclips initially**. - Yun **lost 12**, so Yun now has: $$ 20 - 12 = 8 \\text{ paperclips} $$ - Marion has: $$ \\frac{1}{4} \\text{ more than what Yun currently has, plus } 7 $$ So, $$ \\frac{1}{4} \\times 8 + 7 = 2 + 7 = 9 $$"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "17",
+          "reasoning_tail": "Yun had 20 paperclips initially, then lost 12. So, he currently has: $$ 20 - 12 = 8 \\text{ paperclips} $$ Marion has: $$ \\frac{1}{4} \\text{ more than what Yun currently has, plus 7} $$ So, Marion has: $$ 8 + \\frac{1}{4} \\times 8 + 7 = 8 + 2 + 7 = 17 \\text{ paperclips} $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "17",
+          "reasoning_tail": "We are given: - Yun had **20** paperclips initially. - Yun **lost 12**, so he now has: $ 20 - 12 = 8 $ paperclips. Marion has: $ \\frac{1}{4} \\text{ more than what Yun currently has, plus } 7 $. So: Marion has: $ 8 + \\frac{1}{4} \\times 8 + 7 = 8 + 2 + 7 = 17 $ paperclips."
+        },
+        {
+          "index": 3,
+          "parsed_answer": "17",
+          "reasoning_tail": "We are given the following: - Yun had **20 paperclips** initially. - Then lost **12**, so **Yun currently has** $ 20 - 12 = 8 $ paperclips. - Marion has **$ \\frac{1}{4} $ more than what Yun currently has, plus 7**. So, we calculate: $$ \\text{Marion's paperclips} = 8 + \\left( \\frac{1}{4} \\times 8 \\right) + 7 $$ $$ = 8 + 2 + 7 = 17 $$"
+        }
+      ]
+    },
+    {
+      "row_index": 44,
+      "id": "gsm8k:02e6a3586d4118e71421fdc68390a128f9deffd2e36cf200f9d29105c4e0e3e0",
+      "question": "Three different 6th grade classes are combining for a square dancing unit.  If possible, the teachers would like each male student to partner with a female student for the unit.  The first class has 17 males and 13 females, while the second class has 14 males and 18 females, and the third class has 15 males and 17 females.  When the classes are combined, how many students will be unable to partner with a student of the opposite gender?",
+      "gold_answer": "2",
+      "selected_candidate": 0,
+      "selected_answer": "48",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "48",
+          "reasoning_tail": "t pair more than one person with each gender. - **Males: 17 + 14 + 15 = 46** - **Females: 13 + 18 + 17 = 48** So, the **maximum number of possible pairings** is **46** (the number of males). --- ### Step 3: Find how many students are unable to partner We subtract the number of students who can partner from the total number of students: $$ 94 - 46 = 48 $$ ---"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "48",
+          "reasoning_tail": " can partner with **1 female**. Since there are 46 males, the maximum number of possible partnerings is: $$ \\text{Maximum partnerings} = 46 \\times 1 = 46 $$ ### Step 3: Number of students who **cannot partner** We subtract the number of students who can partner from the total number of students: $$ \\text{Students who cannot partner} = 94 - 46 = \\boxed{48} $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "45",
+          "reasoning_tail": "4 males = 14 students who can partner - 15 males = 15 students who can partner - 17 females = 17 students who can partner - 18 females = 18 students who can partner So, total students who can partner: $$ 13 + 14 + 15 + 17 + 18 = 87 \\text{ students} $$ ### Step 4: Number of students who **cannot** partner with someone of the opposite gender $$ 87 - 42 = 45 $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "2",
+          "reasoning_tail": "n partner with one male student, the maximum number of valid pairings is the minimum of the total male and female students. So, the **maximum number of students who can partner** is: $$ \\min(46, 48) = 46 $$ This means **46 students** can partner with a student of the opposite gender. --- ### Step 3: Number of students who cannot partner $$ 48 - 46 = 2 $$ ---"
+        }
+      ]
+    },
+    {
+      "row_index": 90,
+      "id": "gsm8k:f786810eeb3814ef511d6d35ad780d720f852f764c260218e030b01027e64be8",
+      "question": "Helga went shopping for a new pair of shoes. At the first store, she tried on 7 pairs of shoes. At the second store, she tried on 2 more pairs than at the first store. At the third store, she did not try on any shoes, but she did buy a scarf.  But at the fourth store, she tried on twice as many pairs of shoes as she did at all three other stores combined, before finally choosing a pair to buy.  What is the total number of pairs of shoes Helga tried on before buying her new shoes?",
+      "gold_answer": "48",
+      "selected_candidate": 2,
+      "selected_answer": "32",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "48",
+          "reasoning_tail": "a tried on: - 7 pairs of shoes at the first store. - 2 more pairs than at the first store at the second store \u2192 7 + 2 = **9** pairs. - 0 pairs at the third store. - Twice as many pairs as at the first and second stores combined at the fourth store \u2192 7 + 9 = **16**, so **16 \u00d7 2 = 32** pairs. Total pairs tried on before buying shoes: 7 + 9 + 32 = **48** pairs."
+        },
+        {
+          "index": 1,
+          "parsed_answer": "48",
+          "reasoning_tail": ": - **First store**: 7 pairs of shoes - **Second store**: 2 more pairs than the first store \u2192 $ 7 + 2 = 9 $ pairs - **Third store**: 0 pairs of shoes (no shoes tried on) - **Fourth store**: Twice as many pairs as the sum of the first three stores \u2192 $ 2 \\times (7 + 9 + 0) = 2 \\times 16 = 32 $ pairs Now, add the pairs from all stores: $$ 7 + 9 + 0 + 32 = 48 $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "32",
+          "reasoning_tail": "rs. - At the **third store**, she **did not try on any shoes**, so $0$ pairs. - At the **fourth store**, she tried on **twice as many pairs as the sum of the first three stores**. - Sum of first three stores: $7 + 9 + 0 = 16$ - Twice that: $2 \\times 16 = 32$ pairs. Total number of pairs of shoes Helga tried on before buying her new shoes is: $$ \\boxed{32} $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "44",
+          "reasoning_tail": "e pairs than at the first store at the second store: $ 7 + 2 = 9 $ pairs. - 0 pairs at the third store, but she bought a scarf. - Twice as many pairs of shoes as the sum of the pairs tried on at the first and second stores at the fourth store. So, the total number of pairs of shoes Helga tried on is: $$ 7 + 9 + 0 + (2 \\times (7 + 9)) = 7 + 9 + 0 + 28 = 44 $$"
+        }
+      ]
+    },
+    {
+      "row_index": 97,
+      "id": "gsm8k:d6a8fbf8728cec1b7e77b51e1121a769e7d91903bd79516ba5c0483dac297fa3",
+      "question": "A football club has a balance of $100 million. The club then sells 2 of its players at $10 million each, and buys 4 more at $15 million each. How much money is left in the club register in millions of dollars?",
+      "gold_answer": "60",
+      "selected_candidate": 2,
+      "selected_answer": "20",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "20",
+          "reasoning_tail": "We start with a balance of **100 million**. 1. **Sells 2 players at $10 million each**: $ 2 \\times 10 = 20 $ million. 2. **Buys 4 players at $15 million each**: $ 4 \\times 15 = 60 $ million. 3. **Total change in balance**: $ 20 + 60 = 80 $ million. 4. **Final balance**: $ 100 - 80 = 20 $ million."
+        },
+        {
+          "index": 1,
+          "parsed_answer": "60",
+          "reasoning_tail": "We start with a balance of **100 million**. 1. The club sells **2 players at $10 million each**: $ 2 \\times 10 = 20 $ million. 2. The club buys **4 players at $15 million each**: $ 4 \\times 15 = 60 $ million. 3. The total change in balance is: $ 20 - 60 = -40 $ million. 4. The club's balance is now: $ 100 - 40 = \\boxed{60} $ million."
+        },
+        {
+          "index": 2,
+          "parsed_answer": "20",
+          "reasoning_tail": "We start with the initial balance of **$100 million**. 1. The club sells **2 players at $10 million each**: $ 2 \\times 10 = 20 $ million 2. The club buys **4 players at $15 million each**: $ 4 \\times 15 = 60 $ million 3. Total change: $ 20 + 60 = 80 $ million 4. Final balance: $ 100 - 80 = 20 $ million"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "20",
+          "reasoning_tail": "million**. 1. The club sells **2 players** at **$10 million each**: $$ 2 \\times 10 = 20 \\text{ million dollars} $$ 2. The club buys **4 players** at **$15 million each**: $$ 4 \\times 15 = 60 \\text{ million dollars} $$ 3. Total change in the club register: $$ 20 + 60 = 80 \\text{ million dollars} $$ 4. Final balance: $$ 100 - 80 = 20 \\text{ million dollars} $$"
+        }
+      ]
+    },
+    {
+      "row_index": 133,
+      "id": "gsm8k:53720078a6bffa4e141a7bf22a1e6a86239cb349bca7fe908c4fbccd6c1bc290",
+      "question": "Jason and Jeremy want to paint their wall white and agreed to split the cost of the paint. A gallon of paint costs $45 and can cover up to 400 square feet. How much will each of them contribute to the cost of the paint if their walls have a total area of 1600 square feet and will need a second coat?",
+      "gold_answer": "180",
+      "selected_candidate": 2,
+      "selected_answer": "90",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": null,
+          "reasoning_tail": "0 square feet - Total paint needed: 2401 square feet - Number of gallons: $ \\frac{2401}{400} = 6.0025 $ - Since paint is sold in whole gallons, we round up to **7 gallons** ### Step 3: Calculate cost per gallon - Cost per gallon: $45 - Total cost: 7 \u00d7 45 = $315 ### Step 4: Calculate cost per person - Each person contributes equally: $ \\frac{315}{2} = 157.5 $"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "180",
+          "reasoning_tail": " - **Paint cost per gallon**: $45 - **Paint coverage per gallon**: 400 square feet - **Paint cost per square foot**: $45 / 400 = \\$0.1125 per square foot - **Number of coats**: 2 (since they need a second coat) - **Total cost of paint**: $$ 1600 \\times 0.1125 \\times 2 = 360 \\text{ dollars} $$ Each person contributes: $$ \\frac{360}{2} = 180 \\text{ dollars} $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "90",
+          "reasoning_tail": "t{Coverage per gallon}} = \\frac{1600}{400} = 4 \\text{ gallons} $$ --- ### Step 2: Find the cost of 4 gallons $$ \\text{Cost} = 4 \\times 45 = 180 \\text{ dollars} $$ --- ### Step 3: Determine how much each person contributes Since the total cost is **$180**, and there are 2 people: $$ \\text{Each person's contribution} = \\frac{180}{2} = 90 \\text{ dollars} $$ ---"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "45",
+          "reasoning_tail": "00 \\text{ square feet} $$ --- ### Step 2: Calculate the number of gallons needed $$ \\frac{800 \\text{ square feet}}{400 \\text{ square feet per gallon}} = 2 \\text{ gallons} $$ --- ### Step 3: Calculate the cost of the paint $$ 2 \\text{ gallons} \\times \\$45 = \\$90 $$ --- ### Step 4: Split the cost equally between Jason and Jeremy $$ \\frac{\\$90}{2} = \\$45 $$ ---"
+        }
+      ]
+    },
+    {
+      "row_index": 161,
+      "id": "gsm8k:cb3a33439e77f859fe1f233fec6ba9226eb8cbcabff37407bb7e0365affe0084",
+      "question": "Patricia is growing her long very long to donate it to a charity that makes wigs for cancer survivors. Her hair is 14 inches long. She needs to donate 23 inches to make a wig. She wants her hair to be 12 inches long after the donation. How much longer does she have to grow her hair?",
+      "gold_answer": "21",
+      "selected_candidate": 3,
+      "selected_answer": "3",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "21",
+          "reasoning_tail": "She needs to donate 23 inches - After donation, her hair will be 12 inches long We are asked: **How much longer does she have to grow her hair?** ### Step-by-step: 1. Start with the current length: 14 inches 2. Subtract the donation: $ 14 - 23 = -9 $ inches (This means she is short by 9 inches after donation) 3. Add the desired length: $ 12 + 9 = 21 $ inches"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "2",
+          "reasoning_tail": "to make a wig - She wants her hair to be **12 inches** after donation We are asked to find how much **longer** she has to grow her hair. ### Step-by-step: 1. Calculate the **current length** after donation: $$ 12 \\text{ inches} $$ 2. Subtract the current length from the original length to find how much longer she has to grow: $$ 14 - 12 = 2 \\text{ inches} $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "2",
+          "reasoning_tail": ": **12 inches** - Donation required: **23 inches** To find how much longer Patricia needs to grow her hair: 1. Find the difference between the desired length and the current length: $ 12 - 14 = -2 $ inches 2. Since the result is negative, it means Patricia already has **2 inches** more than needed. 3. Therefore, Patricia has to grow her hair by **2 inches**."
+        },
+        {
+          "index": 3,
+          "parsed_answer": "3",
+          "reasoning_tail": "e given: - Original hair length: 14 inches - Donation needed: 23 inches - Desired final length after donation: 12 inches We need to find how much longer Patricia has to grow her hair. ### Step 1: Find how much hair is needed for the donation $$ 23 - 14 = 9 \\text{ inches} $$ ### Step 2: Find how much hair is left after donation $$ 12 - 9 = 3 \\text{ inches} $$"
+        }
+      ]
+    },
+    {
+      "row_index": 171,
+      "id": "gsm8k:259982b93458414b42b8fc9c5b109b9788076e7cc0bc1fcb972f2e4ace85f99c",
+      "question": "A frog pond has five frogs living in it. Some frogs laid eggs, and now there are three times as many tadpoles growing into more frogs as there are frogs. Two-thirds of the tadpoles will survive to maturity as frogs. The pond can only sustain eight frogs. How many frogs will have to find a new pond when the tadpoles grow up?",
+      "gold_answer": "7",
+      "selected_candidate": 2,
+      "selected_answer": "3",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "5",
+          "reasoning_tail": "ine how many tadpoles will not survive $$ 15 - 10 = 5 $$ So, **5 tadpoles will not survive**. --- ### Step 3: Determine how many frogs will have to find a new pond Since the tadpoles will not survive, and **8 frogs can only sustain themselves**, the number of frogs that will have to find a new pond is: $$ 5 \\text{ tadpoles} \\Rightarrow 5 \\text{ frogs} $$ ---"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "1",
+          "reasoning_tail": "ond can only sustain 8 frogs**. Let\u2019s break it down step by step: 1. **Tadpoles**: 15 2. **Surviving tadpoles**: $ \\frac{2}{3} \\times 15 = 10 $ 3. **Frogs that will mature**: 10 4. **Frogs that will not mature**: $15 - 10 = 5$ Since the pond can only sustain **8 frogs**, and 5 of them will mature and 10 will not, **only 1 frog will have to find a new pond**."
+        },
+        {
+          "index": 2,
+          "parsed_answer": "3",
+          "reasoning_tail": "and become frogs. --- ### Step 2: Subtract the number of frogs that will become tadpoles from the total number of tadpoles $$ 15 - 10 = 5 $$ So, **5 frogs** will become tadpoles. --- ### Step 3: Subtract the number of frogs that will become tadpoles from the total number of frogs that can stay $$ 8 - 5 = 3 $$ So, **3 frogs** will have to find a new pond. ---"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "7",
+          "reasoning_tail": "y sustain 8 frogs**. ### Step 1: Calculate the number of tadpoles that will survive $$ \\frac{2}{3} \\times 15 = 10 $$ ### Step 2: Determine how many frogs will have to find a new pond The total number of frogs that will **survive** is 10. We start with 5 frogs, and 10 tadpoles. So, the number of frogs that will have to find a new pond is: $$ 5 + 10 - 8 = 7 $$"
+        }
+      ]
+    },
+    {
+      "row_index": 175,
+      "id": "gsm8k:340f1d4d09ae053baf7d49d75fd67feec2908fe38ef84d24966817c555c08fdf",
+      "question": "Lexie is 6 years older than her brother and her sister is twice her age. If Lexie is 8, what is the age difference between her brother and her sister?",
+      "gold_answer": "14",
+      "selected_candidate": 1,
+      "selected_answer": "2",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "2",
+          "reasoning_tail": "Lexie is 6 years older than her brother \u2192 Brother's age = Lexie's age - 6 = $ 8 - 6 = 2 $ 3. Lexie is twice her sister's age \u2192 Sister's age = Lexie's age / 2 = $ 8 / 2 = 4 $ Now, the **age difference between her brother and her sister** is: $$ 2 - 4 = -2 $$ Since age differences are typically expressed as absolute values, the final answer is: $$ \\boxed{2} $$"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "2",
+          "reasoning_tail": "ie is **twice** her sister's age: $$ \\text{Sister's age} = \\frac{\\text{Lexie's age}}{2} = \\frac{8}{2} = 4 $$ --- ### Step 3: Find the age difference between brother and sister $$ \\text{Age difference} = \\text{Brother's age} - \\text{Sister's age} = 2 - 4 = -2 $$ Since age differences are always **positive**, the **absolute difference** is: $$ \\boxed{2} $$ ---"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "2",
+          "reasoning_tail": "**sister's age**. - Lexie is **8 years old**. --- ### Step 1: Find Lexie's sister's age Since Lexie is **twice** her sister's age, and Lexie is **8**, then: $$ \\text{Sister's age} = \\frac{8}{2} = 4 $$ --- ### Step 2: Find Lexie's brother's age Lexie is **6 years older** than her brother, so: $$ \\text{Brother's age} = \\text{Lexie's age} - 6 = 8 - 6 = 2 $$ ---"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "14",
+          "reasoning_tail": "ter's age Lexie is **twice her age**. So, if Lexie is 8, then her sister is: $$ 2 \\times 8 = 16 $$ --- ### Step 3: Find the age difference between Lexie's brother and sister $$ \\text{Age difference} = \\text{Brother's age} - \\text{Sister's age} = 2 - 16 = -14 $$ Since age differences are typically **positive**, we take the absolute value. $$ \\boxed{14} $$ ---"
+        }
+      ]
+    },
+    {
+      "row_index": 206,
+      "id": "gsm8k:773786fcabb05faa06c66d6d093435b308e51cf550c4871924f6fd53f91dd9b8",
+      "question": "Isabelle gets a job so she can save enough money to go to a concert with her two brothers. Her ticket costs $20. Her brothers both get the children\u2019s discount, and each of their tickets cost $10. Her brothers have saved $5 between the two of them and Isabelle has saved $5. If her job pays $3 per week, how many weeks must she work to afford the tickets?",
+      "gold_answer": "10",
+      "selected_candidate": 1,
+      "selected_answer": "20",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "10",
+          "reasoning_tail": "Isabelle saves money over time. Here's the breakdown: - **Her brothers' tickets:** $10 each, so together they save $20. - **Isabelle's savings:** $5 (from her) + $5 (from her brothers) = $10. - **Total savings:** $20 (brothers) + $10 (Isabelle) = **$30**. - **Her job pays $3 per week**, so she needs to work: $$ \\frac{30}{3} = \\boxed{10} \\text{ weeks} $$"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "20",
+          "reasoning_tail": "Isabelle's total savings needed is: - Her brothers' tickets: $10 each \u2192 $20 - Her ticket: $20 - Total needed: $20 + $20 + $20 = **$60** She saves $5 from her brothers and $5 from herself \u2192 total saved: **$10** Her job pays $3 per week. To save $60, she needs: $$ \\frac{60}{3} = \\boxed{20} \\text{ weeks} $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "11",
+          "reasoning_tail": "Isabelle's total savings needed is: - Her brothers: $5 (each of them) = $10 - Isabelle: $5 - Total needed = $10 + $5 + $20 = **$35** Her job pays $3 per week. So: $$ \\text{Number of weeks} = \\frac{35}{3} \\approx \\boxed{11} $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "6",
+          "reasoning_tail": "Isabelle saves: - $5 from her brothers (2 people, $10 each) = $10 - $5 from Isabelle = $5 Total saved: $10 + $5 = **$15** Her job pays $3 per week. She needs $20 for the concert. How many weeks does she need to work: $$ \\frac{20}{3} \\approx \\boxed{6} $$"
+        }
+      ]
+    },
+    {
+      "row_index": 209,
+      "id": "gsm8k:b8029fec0cfe6f46e7a197fdc1439cbf9c9c4fe9540541ba3e744a6cdc1430a7",
+      "question": "Tom hasn't been sleeping well lately. He figures he has been getting about 5 hours of sleep each weeknight and 6 hours each night on the weekend. If Tom would ideally like to get 8 hours of sleep each night on both weeknights and weekends, how many hours of sleep is Tom behind on from the last week?",
+      "gold_answer": "19",
+      "selected_candidate": 1,
+      "selected_answer": "10",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "19",
+          "reasoning_tail": " 12 \\text{ hours}$ - Total: $25 + 12 = 37 \\text{ hours}$ --- ### Step 2: Calculate the total hours he wants to sleep - Weeknights: $8 \\text{ hours} \\times 5 = 40 \\text{ hours}$ - Weekend: $8 \\text{ hours} \\times 2 = 16 \\text{ hours}$ - Total: $40 + 16 = 56 \\text{ hours}$ --- ### Step 3: Find the difference - Tom is behind by: $56 - 37 = 19 \\text{ hours}$ ---"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "10",
+          "reasoning_tail": "ing: - 5 hours each weeknight (which is 2 nights) - 6 hours each night on the weekend (which is 2 nights) So, total sleep: $$ 5 \\times 2 + 6 \\times 2 = 10 + 12 = 22 \\text{ hours} $$ He wants: - 8 hours each night on both weeknights and weekends (which is 4 nights) $$ 8 \\times 4 = 32 \\text{ hours} $$ So, Tom is behind: $$ 32 - 22 = \\boxed{10} \\text{ hours} $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "5",
+          "reasoning_tail": " **Weeknights**: 5 hours - **Weekends**: 6 hours So, total hours slept: $$ 5 + 6 = 11 \\text{ hours} $$ --- ### Step 2: Calculate the ideal total hours he should have been sleeping - Weeknights: 8 hours - Weekends: 8 hours So, ideal total hours: $$ 8 + 8 = 16 \\text{ hours} $$ --- ### Step 3: Find how many hours he is behind $$ 16 - 11 = 5 \\text{ hours} $$ ---"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "10",
+          "reasoning_tail": "\\times 2 = 12 $ hours - Total: $ 10 + 12 = 22 $ hours --- ### Step 2: Calculate the total hours he wants to sleep: - Weeknights: $ 8 \\text{ hours/weeknight} \\times 2 = 16 $ hours - Weekend: $ 8 \\text{ hours/weekend} \\times 2 = 16 $ hours - Total: $ 16 + 16 = 32 $ hours --- ### Step 3: Find the difference: - He is behind by: $ 32 - 22 = \\boxed{10} $ hours ---"
+        }
+      ]
+    },
+    {
+      "row_index": 210,
+      "id": "gsm8k:8446f360c0f9e7e8050ffe55615c9b6f8544bfdc3522e9d7afbf6d115bff5455",
+      "question": "Billy and Margaret are competing with each other to see who can swim 10 laps the fastest. Billy swims his first 5 laps in 2 minutes, swims the next 3 laps in 4 minutes, swims the next lap in 1 minute, then swims his final lap. Margaret finishes swimming all of her laps in 10 minutes. Billy wins the competition by finishing his laps 30 seconds before Margaret does. In seconds, how long did it take Billy to swim his final lap?",
+      "gold_answer": "150",
+      "selected_candidate": 3,
+      "selected_answer": "180",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "420",
+          "reasoning_tail": "utes - 3 laps: 4 minutes - 1 lap: 1 minute So, total time for 10 laps: $$ 2 + 4 + 1 = 7 \\text{ minutes} $$ --- ### Step 2: Find the time each person took to finish their 10 laps - Margaret: 10 minutes - Billy: 7 minutes Billy finishes **30 seconds earlier** than Margaret, so: $$ 10 - 30 = 7 \\text{ minutes} \\Rightarrow 7 \\times 60 = 420 \\text{ seconds} $$ ---"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "150",
+          "reasoning_tail": "ation that Billy finishes **30 seconds before** Margaret Billy's total time = 7 + x minutes Margaret's total time = 10 minutes Billy finishes 30 seconds before Margaret: $$ 7 + x = 10 - 0.5 = 9.5 \\text{ minutes} $$ --- ### Step 4: Solve for x $$ x = 9.5 - 7 = 2.5 \\text{ minutes} $$ Convert 2.5 minutes to seconds: $$ 2.5 \\times 60 = 150 \\text{ seconds} $$ ---"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "540",
+          "reasoning_tail": " **1 minute** So, total time for Billy is: $$ 10 + 12 + 1 = \\boxed{23} \\text{ minutes} $$ --- ### Step 2: Find the time for Billy\u2019s final lap Billy finishes **30 seconds** before Margaret finishes all 10 laps. Margaret finishes in **10 minutes**, so Billy finishes in: $$ 10 \\text{ minutes} - 30 \\text{ seconds} = 9 \\text{ minutes} = 540 \\text{ seconds} $$ ---"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "180",
+          "reasoning_tail": "vert to seconds: $7 \\times 60 = 420$ seconds ### Step 2: Time for Margaret Margaret finishes all 10 laps in **10 minutes** = $10 \\times 60 = 600$ seconds ### Step 3: Difference in time Billy finishes **30 seconds before** Margaret does. So, the difference in time is: $$ 600 - 420 = 180 \\text{ seconds} $$ This means Billy's final lap took **180 seconds**. ---"
+        }
+      ]
+    },
+    {
+      "row_index": 275,
+      "id": "gsm8k:47ea45d3b36e2f74437274f20e0cd0e9f8957a8ad167f258281c1d3eeb52945e",
+      "question": "Texas Integrated School has 15 classes and has 20 students per class.  They added five more classes, how many students will they have now?",
+      "gold_answer": "400",
+      "selected_candidate": 1,
+      "selected_answer": "700",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "400",
+          "reasoning_tail": "We start with 15 classes, each containing 20 students, so the total number of students is: $$ 15 \\times 20 = 300 \\text{ students} $$ They added 5 more classes, so the total number of classes becomes: $$ 15 + 5 = 20 \\text{ classes} $$ Now, each class still has 20 students, so the total number of students is: $$ 20 \\times 20 = 400 \\text{ students} $$"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "700",
+          "reasoning_tail": "We start with 15 classes, each containing 20 students: $$ 15 \\times 20 = 300 \\text{ students} $$ They added 5 more classes, so now there are: $$ 15 + 5 = 20 \\text{ new classes} $$ Each class still has 20 students: $$ 20 \\times 20 = 400 \\text{ students} $$ Now, total students: $$ 300 + 400 = \\boxed{700} $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "700",
+          "reasoning_tail": "We start with 15 classes and 20 students per class: $$ 15 \\times 20 = 300 \\text{ students} $$ They added 5 more classes, so now there are: $$ 15 + 5 = 20 \\text{ new classes} $$ Now, the total number of students is: $$ 300 + 20 \\times 20 = 300 + 400 = \\boxed{700} $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "400",
+          "reasoning_tail": "We start with 15 classes and 20 students per class: $$ 15 \\text{ classes} \\times 20 \\text{ students/class} = 300 \\text{ students} $$ They added 5 more classes, so now there are: $$ 15 + 5 = 20 \\text{ new classes} $$ $$ 20 \\text{ new classes} \\times 20 \\text{ students/class} = 400 \\text{ students} $$"
+        }
+      ]
+    },
+    {
+      "row_index": 328,
+      "id": "gsm8k:b02adc28fe5406c552b6a60f26d642e48a606631cc98914a2867ee5640116640",
+      "question": "Manny had 3 birthday cookie pies to share with his 24 classmates and his teacher, Mr. Keith.   If each of the cookie pies were cut into 10 slices and Manny, his classmates, and Mr. Keith all had 1 piece, how many slices are left?",
+      "gold_answer": "4",
+      "selected_candidate": 1,
+      "selected_answer": "5",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "5",
+          "reasoning_tail": "3 pies \u00d7 10 slices per pie = **30 slices**. ### Step 2: Determine how many people had 1 slice each - Manny + 24 classmates + Mr. Keith = **25 people**. ### Step 3: Calculate total number of slices eaten - 25 people \u00d7 1 slice = **25 slices**. ### Step 4: Calculate how many slices are left - Total slices = 30 - Slices eaten = 25 - Slices left = 30 - 25 = **5**"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "5",
+          "reasoning_tail": "Manny had **3 birthday cookie pies**, each cut into **10 slices**. He had **24 classmates** and **Mr. Keith**, so that's **24 + 1 = 25 people**. - Total slices: $ 3 \\times 10 = 30 $ slices. - Total people: $ 25 $ people. - Each person gets **1 slice**, so total slices eaten: $ 25 \\times 1 = 25 $ slices. - Slices left: $ 30 - 25 = \\boxed{5} $."
+        },
+        {
+          "index": 2,
+          "parsed_answer": "240",
+          "reasoning_tail": "ople. --- ### Step 3: Total number of pieces each person had Each person had 1 piece. $$ 27 \\text{ people} \\times 1 = 27 \\text{ pieces} $$ --- ### Step 4: Total number of slices used $$ 27 \\text{ pieces} \\times 10 \\text{ slices per piece} = 270 \\text{ slices} $$ --- ### Step 5: Slices left $$ 30 \\text{ total slices} - 270 \\text{ used slices} = \\boxed{240} $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "4",
+          "reasoning_tail": "Manny had 3 birthday cookie pies, each cut into 10 slices. So: - Total slices = $ 3 \\times 10 = 30 $ slices. Manny, his 24 classmates, and Mr. Keith all had 1 slice each. That means: - Total people = $ 1 + 24 + 1 = 26 $ people. Now, the number of slices **left** is: $$ 30 - 26 = \\boxed{4} $$"
+        }
+      ]
+    },
+    {
+      "row_index": 359,
+      "id": "gsm8k:ef61aa2d7b9e6bf5b7f6d6d1d0540679033733c7b170636e2fcc7f2445a29d61",
+      "question": "There is very little car traffic on Happy Street. During the week, most cars pass it on Tuesday - 25. On Monday, 20% less than on Tuesday, and on Wednesday, 2 more cars than on Monday. On Thursday and Friday, it is about 10 cars each day. On the weekend, traffic drops to 5 cars per day. How many cars travel down Happy Street from Monday through Sunday?",
+      "gold_answer": "97",
+      "selected_candidate": 1,
+      "selected_answer": "92",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "97",
+          "reasoning_tail": "We are given the number of cars on each day of the week: - **Monday:** 20% less than Tuesday \u2192 $25 - 20\\% \\times 25 = 20$ - **Tuesday:** 25 - **Wednesday:** 2 more than Monday \u2192 $20 + 2 = 22$ - **Thursday and Friday:** 10 each day \u2192 $10 + 10 = 20$ - **Saturday:** 5 cars - **Sunday:** 5 cars Now, sum all the values: $$ 20 + 25 + 22 + 10 + 10 + 5 + 5 = 97 $$"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "92",
+          "reasoning_tail": "day**: 2 more cars than Monday \u2192 $ 20 + 2 = 22 $ cars - **Thursday and Friday**: 10 cars each \u2192 $ 10 + 10 = 20 $ cars - **Saturday and Sunday**: 5 cars each \u2192 $ 5 + 5 = 10 $ cars Now, add them all up: $$ 20 \\, (\\text{Monday}) + 22 \\, (\\text{Wednesday}) + 10 \\, (\\text{Thursday}) + 10 \\, (\\text{Friday}) + 10 \\, (\\text{Saturday}) + 10 \\, (\\text{Sunday}) = 92 $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "97",
+          "reasoning_tail": "number of cars on each day of the week: - **Monday:** 20% less than Tuesday (25) $ 25 \\times (1 - 0.20) = 20 $ - **Tuesday:** 25 cars - **Wednesday:** 2 more than Monday $ 20 + 2 = 22 $ - **Thursday:** 10 cars - **Friday:** 10 cars - **Saturday:** 5 cars - **Sunday:** 5 cars ### Total cars from Monday through Sunday: $$ 20 + 25 + 22 + 10 + 10 + 5 + 5 = 97 $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "100",
+          "reasoning_tail": "han Tuesday = 25 cars - **Tuesday:** 25 cars - **Wednesday:** 2 more than Monday = 25 + 2 = **27 cars** - **Thursday:** 10 cars - **Friday:** 10 cars - **Saturday:** 5 cars - **Sunday:** 5 cars Now, we sum all the cars: $$ 25 \\text{ (Mon)} + 25 \\text{ (Tue)} + 27 \\text{ (Wed)} + 10 \\text{ (Thu)} + 10 \\text{ (Fri)} + 5 \\text{ (Sat)} + 5 \\text{ (Sun)} = 100 $$"
+        }
+      ]
+    },
+    {
+      "row_index": 362,
+      "id": "gsm8k:bb50ba9fd65d676f24cf5ee829f655494408dc9072e5f3bcf400688a5a3ff9eb",
+      "question": "For his birthday, Geoffrey received clothes and money. His grandmother gave him \u20ac20, his aunt \u20ac25 and his uncle \u20ac30. With what he already had, he now has \u20ac125 in his wallet. He goes to a video game store and gets 3 games that cost 35 euros each. How much does he have left after this purchase?",
+      "gold_answer": "20",
+      "selected_candidate": 2,
+      "selected_answer": "95",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "20",
+          "reasoning_tail": "ount he has now He already had **\u20ac20 + \u20ac25 + \u20ac30 = \u20ac75**, and now he has **\u20ac125**. So, he has **\u20ac50** more than this. --- ### Step 2: Calculate the total cost of the games Each game costs **\u20ac35**, and he buys **3** games. $$ 3 \\times 35 = 105 \\text{ euros} $$ --- ### Step 3: Subtract the cost of the games from the total amount he has $$ 125 - 105 = 20 $$ ---"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "20",
+          "reasoning_tail": "mother - \u20ac25 from his aunt - \u20ac30 from his uncle - With what he already had, he now has \u20ac125 in his wallet. - He also buys 3 games, each costing \u20ac35. Let's solve step by step: 1. Total money Geoffrey had initially: $ 20 + 25 + 30 = 75 $ 2. After buying the games, his total money is: $ 125 - 3 \\times 35 = 125 - 105 = 20 $ 3. Therefore, he has **left** \u20ac20. ---"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "95",
+          "reasoning_tail": ", each costing 35 euros ### Step 1: Add the money he received from his grandmother, aunt, and uncle $$ 20 + 25 + 30 = 75 $$ ### Step 2: Add the money he already had to the received money $$ 125 + 75 = 200 $$ ### Step 3: Calculate the total cost of the games $$ 3 \\times 35 = 105 $$ ### Step 4: Subtract the cost of the games from the total $$ 200 - 105 = 95 $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "95",
+          "reasoning_tail": "We are given: - Geoffrey received: - \u20ac20 from his grandmother - \u20ac25 from his aunt - \u20ac30 from his uncle - With what he already had, he now has: - \u20ac125 So, his total amount is: $$ 20 + 25 + 30 = 75 $$ He now has: $$ 75 + 125 = 200 $$ He buys 3 games at \u20ac35 each: $$ 3 \\times 35 = 105 $$ Now, he has: $$ 200 - 105 = \\boxed{95} $$"
+        }
+      ]
+    },
+    {
+      "row_index": 371,
+      "id": "gsm8k:f04692e90d6c37db463ff6d3e2a5cadd2f7548577cb43d9b1111a8bbadf50434",
+      "question": "Gillian\u2019s phone bill is usually $50 a month. If the monthly bill increases by 10%, what will be her phone bill for the entire next year?",
+      "gold_answer": "660",
+      "selected_candidate": 1,
+      "selected_answer": "110",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "660",
+          "reasoning_tail": "ill is usually **$50** a month. ### Step 1: Calculate the increase each month - The monthly bill increases by **10%**. - So, the increase is: $ 50 \\times 0.10 = 5 $ ### Step 2: Add the increase to the original bill - The new monthly bill is: $ 50 + 5 = 55 $ ### Step 3: Calculate the total for the entire year - A year has 12 months, so: $ 55 \\times 12 = 660 $"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "110",
+          "reasoning_tail": "0% - Time period: 12 months (a year) ### Step 1: Calculate the monthly increase after 10% $$ \\text{Monthly increase} = 50 \\times 0.10 = 5 $$ ### Step 2: Calculate the total increase over 12 months $$ \\text{Total increase} = 5 \\times 12 = 60 $$ ### Step 3: Add the original amount to the total increase $$ \\text{Total phone bill for the year} = 50 + 60 = 110 $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": null,
+          "reasoning_tail": "Gillian\u2019s phone bill is usually **$50** a month. - **Monthly increase**: 10% of $50 = $5 - **New monthly bill**: $50 + $5 = **$55** For **the entire next year**, we multiply by 12 (since there are 12 months in a year): $$ 55 \\times 12 = 660 $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "14763/50",
+          "reasoning_tail": "0% each month. 1. **First month**: $50 + 10% of $50 = $50 \u00d7 1.10 = $55 2. **Second month**: $55 + 10% of $55 = $55 \u00d7 1.10 = $60.50 3. **Third month**: $60.50 + 10% of $60.50 = $60.50 \u00d7 1.10 = $66.55 4. **Fourth month**: $66.55 + 10% of $66.55 = $66.55 \u00d7 1.10 = $73.21 Now, add the monthly bills for the next 12 months: $$ 55 + 60.50 + 66.55 + 73.21 = 295.26 $$"
+        }
+      ]
+    },
+    {
+      "row_index": 444,
+      "id": "gsm8k:fd23d86676d457a5edd2ad70cc5accd6b3e3c36e975e3b85316a5e7990357a36",
+      "question": "Andy walks 50 meters from his house to school. After school, he comes back to the house and goes to the market. If he walks 140 meters in total, how many meters is the distance between the house and the market?",
+      "gold_answer": "40",
+      "selected_candidate": 1,
+      "selected_answer": "45",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": null,
+          "reasoning_tail": " - Then he walks **140 meters** in total (including the return trip to the house and the market). Let the distance between the house and the market be $ x $ meters. - From house to school: $ 50 $ meters. - From school to house: $ 50 $ meters. - From house to market: $ x $ meters. Total distance walked: $$ 50 + 50 + x = 140 $$ $$ 100 + x = 140 $$ $$ x = 40 $$"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "45",
+          "reasoning_tail": "l distance** he walks is **140 meters**. Let the distance between the house and the market be $ x $ meters. - Andy walks **50 meters** to school. - Then he walks **x meters** back home. - Then he walks **x meters** to the market. So the total distance is: $$ 50 + x + x = 50 + 2x = 140 $$ Solving for $ x $: $$ 2x = 140 - 50 = 90 $$ $$ x = \\frac{90}{2} = 45 $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "40",
+          "reasoning_tail": "We are told that: - Andy walks **50 meters** from his house to school. - Then he **returns** to the house and walks **140 meters** in total. Let\u2019s denote the distance between the house and the market as $ x $ meters. So, the total distance walked is: $$ 50 + x + 50 = 140 $$ $$ x = 140 - 50 - 50 = 40 $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": null,
+          "reasoning_tail": "We are told that: - Andy walks **50 meters** from his house to school. - Then he walks **140 meters** in total, including the return trip to the house and the market. Let the distance between the house and the market be $ x $ meters. - The total distance is: $ 50 + x + 50 = 140 $ - So, $ x = 140 - 50 - 50 = 40 $"
+        }
+      ]
+    },
+    {
+      "row_index": 454,
+      "id": "gsm8k:b8ac3654f898875f8eb98d0e50e94d3f2326d629b051e9a34e61c9c2bb697cdc",
+      "question": "A passenger train transports passengers between two stations located in two separate cities. On a particular day, the train carried 100 passengers from one station to the other one way, and on the return trip carried 60 passengers. If the train made three more round trips that day, taking the same number of people as the first trip in each trip, calculate the total number of passengers transported between both stations?",
+      "gold_answer": "640",
+      "selected_candidate": 0,
+      "selected_answer": "480",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "480",
+          "reasoning_tail": " first trip. ### Step 1: Determine the number of passengers per round trip - First trip: 100 passengers - Return trip: 60 passengers So, **one round trip** transports **100 + 60 = 160 passengers**. ### Step 2: Calculate total passengers transported over three round trips - Each round trip: 160 passengers - Three round trips: $ 3 \\times 160 = 480 $ passengers"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "640",
+          "reasoning_tail": "ers**. - The train made **3 more round trips**. Let\u2019s calculate the total number of passengers transported: ### Step 1: Single round trip - 100 passengers from one direction + 60 passengers back = **160 passengers per round trip** ### Step 2: 3 more round trips - $ 160 \\times 3 = 480 $ passengers ### Step 3: Total passengers transported - $ 160 + 480 = 640 $"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "480",
+          "reasoning_tail": "p - On one trip, 100 passengers **left** one way, and 60 **left** the other way. - So, the total number of passengers transported in one trip is: $$ 100 + 60 = 160 \\text{ passengers} $$ ### Step 2: Calculate total passengers transported over 3 trips - Each trip transports 160 passengers. - There are 3 trips. $$ \\text{Total passengers} = 3 \\times 160 = 480 $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "480",
+          "reasoning_tail": "e train transported **100 passengers** from one station to the other. - Then **60 passengers** on the return trip. - The train made **3 more round trips**. Let\u2019s break it down: - Each round trip has **100 + 60 = 160 passengers**. - Each round trip takes **3 more trips**. So: - Total passengers transported in 3 round trips = $ 160 \\times 3 = 480 $ passengers."
+        }
+      ]
+    },
+    {
+      "row_index": 497,
+      "id": "gsm8k:1532b8a90524fd246aa0d0c3b2a4b35b617f24a4e0a9e4159733024c9e1b92e3",
+      "question": "Tom invites his parents and 3 siblings to his house.  They each eat 3 times a day.  How many plates do Tom and his guests use while they are there for the 4 days if each person uses 2 plates per meal?",
+      "gold_answer": "144",
+      "selected_candidate": 2,
+      "selected_answer": "96",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "144",
+          "reasoning_tail": " Calculate total number of meals per day $$ 6 \\text{ people} \\times 3 \\text{ meals/day} = 18 \\text{ meals/day} $$ --- ### Step 3: Calculate total number of plates per day $$ 18 \\text{ meals/day} \\times 2 \\text{ plates/meal} = 36 \\text{ plates/day} $$ --- ### Step 4: Multiply by 4 days $$ 36 \\text{ plates/day} \\times 4 \\text{ days} = 144 \\text{ plates} $$ ---"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "120",
+          "reasoning_tail": "ach person eats **3 meals per day** - Each person uses **2 plates per meal** - They stay for **4 days** ### Step-by-step: 1. **Total people**: 5 2. **Total meals per day**: 5 people \u00d7 3 meals/day = **15 meals/day** 3. **Total plates per meal**: 2 plates \u00d7 15 meals/day = **30 plates/day** 4. **Total plates for 4 days**: 30 plates/day \u00d7 4 days = **120 plates**"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "96",
+          "reasoning_tail": "s per day**: 3 - **Number of plates per person per meal**: 2 - **Number of days**: 4 ### Step-by-step calculation: - **Total plates used per day**: $ 4 \\text{ people} \\times 3 \\text{ meals/day} \\times 2 \\text{ plates/person/meal} = 24 \\text{ plates/day} $ - **Total plates used over 4 days**: $ 24 \\text{ plates/day} \\times 4 \\text{ days} = 96 \\text{ plates} $"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "120",
+          "reasoning_tail": " siblings + 2 parents) = 5 people. 2. **Number of meals per day**: 3. 3. **Number of plates per meal**: 2. 4. **Number of plates per day**: $ 5 \\text{ people} \\times 3 \\text{ meals/day} \\times 2 \\text{ plates/meal} = 30 \\text{ plates/day} $. 5. **Number of days**: 4. ### Total plates used: $ 30 \\text{ plates/day} \\times 4 \\text{ days} = 120 \\text{ plates} $."
+        }
+      ]
+    },
+    {
+      "row_index": 550,
+      "id": "gsm8k:00e31b0a611584b48fcc02112a30d33ddf10e1aeab28fe502fc3e6662cd80d82",
+      "question": "It takes a butterfly egg 120 days to become a butterfly. If each butterfly spends 3 times as much time as a larva as in a cocoon, how long does each butterfly spend in a cocoon?",
+      "gold_answer": "30",
+      "selected_candidate": 1,
+      "selected_answer": "90",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "180",
+          "reasoning_tail": " the time of the cocoon. - The time in a **butterfly** is then $ 120 + \\frac{x}{3} $, since the egg takes 120 days and the larva takes $ \\frac{x}{3} $ days. We are told the time in a **cocoon** is $ x $, and we are to find $ x $. Let\u2019s solve: $$ x = 120 + \\frac{x}{3} $$ Multiply both sides by 3: $$ 3x = 360 + x $$ Subtract $ x $: $$ 2x = 360 $$ $$ x = 180 $$"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "90",
+          "reasoning_tail": " $ = time spent in a **cocoon** (in days) - $ y $ = time spent in a **larva** (in days) We are told: - $ x = 3y $ We also know that: - A butterfly egg takes **120 days** to become a butterfly. So, the total time a butterfly spends is: $$ 120 = x + y $$ Substitute $ x = 3y $: $$ 120 = 3y + y = 4y $$ $$ y = \\frac{120}{4} = 30 $$ $$ x = 3y = 3 \\times 30 = 90 $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": null,
+          "reasoning_tail": " butterfly spends 3 times as much time as a larva as in a cocoon\" So: $$ \\text{Time in cocoon} = 3 \\times \\text{Time in larva} $$ Let $ t $ be the time in a **larva**. Then: $$ \\text{Time in cocoon} = 3t $$ Now, the total time the butterfly spends is: - 120 days in the egg, - $ t $ days in the larva, - $ 3t $ days in the cocoon. So: $$ 120 + t + 3t = 120 + 4"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "30",
+          "reasoning_tail": "e time in a **cocoon** stage. From the problem: - $ 120 = L + C $ (since the egg takes 120 days to become a butterfly, and the time spent is the sum of larva and cocoon stages) - $ L = 3C $ (each butterfly spends 3 times as much time as a larva as in a cocoon) Substitute $ L = 3C $ into the first equation: $$ 120 = 3C + C = 4C $$ $$ C = \\frac{120}{4} = 30 $$"
+        }
+      ]
+    },
+    {
+      "row_index": 586,
+      "id": "gsm8k:130853dbe05e918b28a283d4766a8a5165070d46082b33202b9134d6838802b4",
+      "question": "On a particular day, Rose's teacher read the register and realized there were twice as many girls as boys present on that day. The class has 250 students, and all the 140 girls were present. If all the absent students were boys, how many boys were absent that day?",
+      "gold_answer": "40",
+      "selected_candidate": 2,
+      "selected_answer": "180",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "180",
+          "reasoning_tail": "esent. Let the number of boys present be $ x $. Then the number of girls present is $ 2x $. We are told there are **140 girls present**, so: $$ 2x = 140 \\Rightarrow x = 70 $$ So, the number of boys present is **70**. Since all the **absent students** are boys, and the total number of students is 250, the number of absent boys is: $$ 250 - 70 = \\boxed{180} $$"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "180",
+          "reasoning_tail": "140 girls** and the number of **girls is twice the number of boys**. Let the number of boys present be $ x $. Then: $$ 140 = 2x \\Rightarrow x = 70 $$ So, **70 boys** were present. --- ### Step 2: Find the number of boys absent Since the total number of students is **250**, and **70** are present, the number of **absent students** is: $$ 250 - 70 = 180 $$ ---"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "180",
+          "reasoning_tail": "sent} = 2x $$ But we are told the number of girls present is **140**. So: $$ 2x = 140 \\Rightarrow x = 70 $$ So, there are **70 boys present**. --- ### Step 2: Total number of students is 250. $$ \\text{Total students} = \\text{Present students} + \\text{Absent students} $$ $$ 250 = 70 + \\text{Absent students} $$ $$ \\text{Absent students} = 250 - 70 = 180 $$ ---"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "40",
+          "reasoning_tail": " girls = 140 (so number of boys = 250 - 140 = 110) - Number of **present** girls is **twice** the number of **present** boys. Let the number of **present** boys be $ x $. Then the number of **present** girls is $ 2x $. Since there are 140 present girls, we have: $$ 2x = 140 \\Rightarrow x = 70 $$ So, the number of **absent** boys is: $$ 250 - 140 - 70 = 40 $$"
+        }
+      ]
+    },
+    {
+      "row_index": 613,
+      "id": "gsm8k:8d3fe5e63aad094e7ab6c20284db6982e5c97d665e50d32b7af477b05f06db16",
+      "question": "Issac has to buy pens and pencils for the upcoming school year. Issac buys 108 writing utensils total. He buys 12 more than 5 times the number of pencils than pens. How many pens did Issac buy?",
+      "gold_answer": "16",
+      "selected_candidate": 2,
+      "selected_answer": "92",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "16",
+          "reasoning_tail": "ing utensils**. From the problem: 1. Total writing utensils: $ p + w = 108 $ 2. He buys **12 more than 5 times the number of pencils** than pens: $ 5p + 12 = w $ We now solve the system of equations: - $ p + w = 108 $ - $ w = 5p + 12 $ Substitute $ w = 5p + 12 $ into the first equation: $$ p + (5p + 12) = 108 $$ $$ 6p + 12 = 108 $$ $$ 6p = 96 $$ $$ p = 16 $$"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "92",
+          "reasoning_tail": " are told: - Total writing utensils: $ p + c = 108 $ - He buys 12 more than 5 times the number of pencils than pens: $ 5c + 12 = p $ We now solve the system of equations: 1. $ p + c = 108 $ 2. $ p = 5c + 12 $ Substitute equation 2 into equation 1: $ 5c + 12 + c = 108 $ $ 6c + 12 = 108 $ $ 6c = 96 $ $ c = 16 $ Now find $ p $: $ p = 5(16) + 12 = 80 + 12 = 92 $"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "92",
+          "reasoning_tail": "buys 12 more than 5 times the number of pencils than pens: $ 5y + 12 = x $ --- We now solve the system of equations: 1. $ x + y = 108 $ 2. $ x = 5y + 12 $ Substitute equation (2) into equation (1): $$ (5y + 12) + y = 108 $$ $$ 6y + 12 = 108 $$ $$ 6y = 96 $$ $$ y = 16 $$ Now substitute $ y = 16 $ back into equation (2): $$ x = 5(16) + 12 = 80 + 12 = 92 $$ ---"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "16",
+          "reasoning_tail": "$ p + w = 108 $ 2. He buys **12 more than 5 times the number of pencils than pens**: $ 5p = w - 12 $ We now solve the system of equations: 1. $ p + w = 108 $ 2. $ 5p = w - 12 $ ### Step 1: Substitute equation 2 into equation 1 From equation 2: $ w = 5p + 12 $ Substitute into equation 1: $$ p + (5p + 12) = 108 $$ $$ 6p + 12 = 108 $$ $$ 6p = 96 $$ $$ p = 16 $$"
+        }
+      ]
+    },
+    {
+      "row_index": 626,
+      "id": "gsm8k:ee954cbd153024b83262f2b64c23230f42bf938eb603d1c26129470fa626718b",
+      "question": "Tara has a shoebox that is 4 inches tall and 6 inches wide. She puts a square block inside that is 4 inches per side. How many square inches of the box are left uncovered?",
+      "gold_answer": "8",
+      "selected_candidate": 0,
+      "selected_answer": "32",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "32",
+          "reasoning_tail": " **4 in \u00d7 4 in \u00d7 4 in**. --- ### Step 1: Find the volume of the shoebox $$ \\text{Volume of shoebox} = 4 \\times 6 \\times 4 = 96 \\text{ in}^3 $$ --- ### Step 2: Find the volume of the block $$ \\text{Volume of block} = 4 \\times 4 \\times 4 = 64 \\text{ in}^3 $$ --- ### Step 3: Find the remaining volume $$ \\text{Remaining volume} = 96 - 64 = 32 \\text{ in}^3 $$ ---"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "8",
+          "reasoning_tail": "2: Calculate the total area of the square block The area of the square block is: $$ \\text{Area}_{\\text{block}} = 4 \\times 4 = 16 \\text{ square inches} $$ --- ### Step 3: Subtract the block's area from the shoebox's area to find the uncovered area $$ \\text{Uncovered area} = \\text{Area}_{\\text{shoebox}} - \\text{Area}_{\\text{block}} = 24 - 16 = \\boxed{8} $$ ---"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "32",
+          "reasoning_tail": "Volume of shoebox} = 4 \\times 6 \\times 4 = 96 \\text{ cubic inches} $$ --- ### Step 2: Calculate the volume of the square block $$ \\text{Volume of square block} = 4 \\times 4 \\times 4 = 64 \\text{ cubic inches} $$ --- ### Step 3: Subtract the volume of the block from the volume of the shoebox $$ \\text{Uncovered volume} = 96 - 64 = 32 \\text{ cubic inches} $$ ---"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "8",
+          "reasoning_tail": " ### Step 2: Find the area of the square block Each side of the square block is 4 inches, so the area is: $$ \\text{Area}_{\\text{block}} = 4 \\times 4 = 16 \\text{ square inches} $$ ### Step 3: Subtract the area of the block from the area of the shoebox $$ \\text{Uncovered area} = \\text{Area}_{\\text{shoebox}} - \\text{Area}_{\\text{block}} = 24 - 16 = \\boxed{8} $$"
+        }
+      ]
+    },
+    {
+      "row_index": 661,
+      "id": "gsm8k:c4b2d05db43fd445c39d02bf0522dc37d2f38fa09caadd817c7179ce5591c236",
+      "question": "After negotiating for the price of a phone, Karsyn bought a phone at 20% of the initial price. If the phone's initial price was $600, calculate how much she paid after negotiating.",
+      "gold_answer": "480",
+      "selected_candidate": 0,
+      "selected_answer": "720",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "720",
+          "reasoning_tail": "We are told that Karsyn bought a phone at **20% of the initial price**, which was **$600**. 1. Calculate 20% of $600: $$ 0.20 \\times 600 = 120 $$ 2. Add this amount to the original price to find the total amount paid: $$ 600 + 120 = 720 $$"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "720",
+          "reasoning_tail": "We are told: - The phone's **initial price** is **$600**. - Karsyn bought it at **20% of the initial price**. ### Step 1: Calculate 20% of $600 $$ 0.20 \\times 600 = 120 $$ ### Step 2: Add the amount she paid $$ 120 + 600 = 720 $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "120",
+          "reasoning_tail": "We are told that Karsyn bought the phone at **20% of the initial price**, which is **$600**. So, the amount she paid is: $$ 0.20 \\times 600 = 120 $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "480",
+          "reasoning_tail": "We are told that Karsyn bought a phone **20% off** its initial price, which is **$600**. - The initial price is $600. - 20% of $600 is **$120**. - So, Karsyn paid **$600 - $120 = $480**."
+        }
+      ]
+    },
+    {
+      "row_index": 679,
+      "id": "gsm8k:73dd280f6ff8a61672aae35d622d0c12e2da767f0e5b5835688f994bb236acc5",
+      "question": "Billy and Tiffany are having a contest to see how can run the most miles in a week. On Sunday, Monday, and Tuesday, Billy runs 1 mile each day and Tiffany runs 2 miles each day. On Wednesday, Thursday, and Friday, Billy runs 1 mile each day and Tiffany runs a 1/3 of a mile each day. On Saturday Tiffany assumes she's going to win and takes the day off. How many miles does Billy have to run on Saturday to tie Tiffany?",
+      "gold_answer": "1",
+      "selected_candidate": 3,
+      "selected_answer": "7",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": null,
+          "reasoning_tail": " Friday: 1/3 mile - Saturday: 0 miles ### Total miles for Billy: - Monday: 1 - Tuesday: 1 - Wednesday: 1 - Thursday: 1 - Friday: 1 - Saturday: 0 **Total = 5 miles** ### Total miles for Tiffany: - Monday: 2 - Tuesday: 2 - Wednesday: 1/3 - Thursday: 1/3 - Friday: 1/3 - Saturday: 0 **Total = 2 + 2 + 1/3 + 1/3 + 1/3 = 5 + 1 = 6 miles** ### To tie, Billy needs to"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "1",
+          "reasoning_tail": "ys. - So, **Tiffany's total miles for those 3 days = 3 \u00d7 2 = 6 miles**. - Billy runs 1 mile on **3 days** (Wednesday, Thursday, Friday). - Tiffany runs 1/3 mile on those 3 days. - So, **Tiffany's total miles for those 3 days = 3 \u00d7 (1/3) = 1 mile**. - Billy runs **1 mile** on **Saturday**. So, Billy needs to **run 1 mile** on Saturday to **tie** with Tiffany."
+        },
+        {
+          "index": 2,
+          "parsed_answer": null,
+          "reasoning_tail": " miles - Monday: 2 miles - Tuesday: 2 miles - Wednesday: $ \\frac{1}{3} $ mile - Thursday: $ \\frac{1}{3} $ mile - Friday: $ \\frac{1}{3} $ mile - Saturday: 0 miles So, Tiffany's total miles = $ 2 + 2 + 2 + \\frac{1}{3} + \\frac{1}{3} + \\frac{1}{3} = 6 + \\frac{1}{3} $ --- ### Step 2: Set Billy's miles equal to Tiffany's $$ 6 + x = 6 + \\frac{1}{3} $$ $$ x = \\frac{"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "7",
+          "reasoning_tail": "total miles:** - 3 days: 1 mile/day \u00d7 3 days = **3 miles** - 3 days: 1 mile/day \u00d7 3 days = **3 miles** - Total = 3 + 3 = **6 miles** - **Tiffany's total miles:** - 3 days: 2 miles/day \u00d7 3 days = **6 miles** - 3 days: $ \\frac{1}{3} $ mile/day \u00d7 3 days = **1 mile** - Total = 6 + 1 = **7 miles** So, **Billy needs to run 7 miles on Saturday to tie Tiffany**. ---"
+        }
+      ]
+    },
+    {
+      "row_index": 728,
+      "id": "gsm8k:d7261d3d3feec7b6f5adbb91ac09d278163b025fe77818d6b13b126c224af291",
+      "question": "Hansel makes $30,000 a year and just received a 10% raise.  Gretel makes the same amount as Hansel but received a 15% raise.  How much more money will Gretel make compared to Hansel?",
+      "gold_answer": "1500",
+      "selected_candidate": 1,
+      "selected_answer": "4500",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "4500",
+          "reasoning_tail": "Hansel makes $30,000 a year. Gretel makes the same as Hansel, so $30,000. Gretel receives a 15% raise, so she makes: $$ 30,000 \\times 1.15 = 34,500 $$ Now, to find how much more Gretel makes compared to Hansel: $$ 34,500 - 30,000 = 4,500 $$"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "4500",
+          "reasoning_tail": "he same amount as Hansel but gets a 15% raise. ### Step 1: Calculate Gretel's raise Gretel's raise = 15% of $30,000 = $0.15 \u00d7 30,000 = **$4,500** ### Step 2: Calculate Gretel's total salary Gretel's total salary = $30,000 + $4,500 = **$34,500** ### Step 3: Calculate how much more Gretel makes compared to Hansel Gretel's extra = $34,500 - $30,000 = **$4,500**"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "1500",
+          "reasoning_tail": "Hansel makes $30,000 and receives a 10% raise. Gretel makes the same amount as Hansel but receives a 15% raise. 1. **Hansel's new salary** = $30,000 \u00d7 1.10 = $33,000 2. **Gretel's new salary** = $30,000 \u00d7 1.15 = $34,500 3. **Difference** = $34,500 - $33,000 = **$1,500**"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "4500",
+          "reasoning_tail": "Hansel makes $30,000 a year. Gretel makes the same amount as Hansel, but receives a 15% raise: $$ 30,000 \\times 1.15 = 34,500 $$ Gretel makes **$34,500**. Hansel makes **$30,000**. Difference: $$ 34,500 - 30,000 = \\boxed{4,500} $$"
+        }
+      ]
+    },
+    {
+      "row_index": 739,
+      "id": "gsm8k:16eae5db0602ff257f136807f4821c4dec941be1d5e9c6ef9a572967830f8316",
+      "question": "A person puts $5600 in a bank for two years. Each year he earns interest of 7% of the original amount deposited. How much will this person have in the bank after two years?",
+      "gold_answer": "6384",
+      "selected_candidate": 3,
+      "selected_answer": "6420",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "160286/25",
+          "reasoning_tail": "inal amount. --- ### Step 1: First Year - **Initial amount**: $5,600 - **Interest earned**: 7% of $5,600 = $392 - **Total amount after first year**: $$ 5,600 + 392 = 5,992 $$ --- ### Step 2: Second Year - **Amount after first year**: $5,992 - **Interest earned**: 7% of $5,992 = $419.44 - **Total amount after second year**: $$ 5,992 + 419.44 = 6,411.44 $$ ---"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "6384",
+          "reasoning_tail": "s ### Step 1: Calculate the interest for the first year $$ \\text{Interest for year 1} = 5600 \\times 0.07 = 392 $$ ### Step 2: Calculate the total amount after 2 years $$ \\text{Total amount} = \\text{Initial amount} + \\text{Interest for year 1} + \\text{Interest for year 2} $$ $$ \\text{Total amount} = 5600 + 392 + (5600 \\times 0.07) = 5600 + 392 + 392 = 6384 $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "160286/25",
+          "reasoning_tail": " interest rate: 7% - Time period: 2 years ### Step 1: First year's interest Interest = 7% of $5600 = $0.07 \u00d7 5600 = **$392** So, after the first year, the total amount is: $$ 5600 + 392 = 5992 $$ ### Step 2: Second year's interest Interest = 7% of $5992 = $0.07 \u00d7 5992 \u2248 **$419.44** So, after the second year, the total amount is: $$ 5992 + 419.44 = 6411.44 $$"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "6420",
+          "reasoning_tail": "n: - Initial amount deposited: $5600 - Annual interest rate: 7% - Time period: 2 years ### Step 1: First year Interest earned = 7% of $5600 = $0.07 \u00d7 5600 = **$392** After one year, total amount = $5600 + $392 = **$6,000** ### Step 2: Second year Interest earned = 7% of $6000 = $0.07 \u00d7 6000 = **$420** After two years, total amount = $6000 + $420 = **$6,420**"
+        }
+      ]
+    },
+    {
+      "row_index": 760,
+      "id": "gsm8k:4ed6b7deb1dca5cebf18bba4bc435e2be313d0fe893f4b5cdab49771bd36c7ec",
+      "question": "The big bottles of mango juice hold 30 ounces and cost 2700 pesetas each. The small bottles hold 6 ounces and cost 600 pesetas each. How many pesetas would be saved by buying a big bottle instead of smaller bottles for the same volume of juice?",
+      "gold_answer": "300",
+      "selected_candidate": 0,
+      "selected_answer": "3",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "3",
+          "reasoning_tail": "ost per ounce - Cost difference per ounce: $ 100 - 90 = 10 $ pesetas/ounce ### Step 3: Find how many ounces of juice are saved per peseta - Since 1 ounce of juice is saved per 1 peseta, we can calculate: $ \\frac{1}{10} = 0.1 $ ounces saved per peseta ### Step 4: Calculate the total savings for 30 ounces of juice - Total savings: $ 30 \\times 0.1 = 3 $ pesetas"
+        },
+        {
+          "index": 1,
+          "parsed_answer": null,
+          "reasoning_tail": " **10 pesetas per ounce**. ### Step 3: Find how many ounces are saved per pesetas $$ \\frac{1 \\text{ peseta}}{10 \\text{ pesetas per ounce}} = 0.1 \\text{ ounce} $$ ### Step 4: Calculate the total savings - The **same volume of juice** is **30 ounces**. - So, the total savings is: $$ 30 \\text{ ounces} \\times 10 \\text{ pesetas per ounce} = 300 \\text{ pesetas} $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": null,
+          "reasoning_tail": " 90}{1} = 10 \\text{ ounces saved per peseta} $$ ### Step 4: Find the total savings for the same volume We need to know how many **ounces** are needed for the same volume of juice. Since both bottles have the same volume, we can assume the **same volume** is being used. Let\u2019s assume **10 ounces** of juice are being used. - **Cost for 10 ounces (big bottle):**"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "300",
+          "reasoning_tail": "= 100 $ pesetas per ounce ### Step 2: Calculate the savings per ounce - Big bottle: 90 pesetas per ounce - Small bottle: 100 pesetas per ounce - **Savings per ounce** = $ 100 - 90 = 10 $ pesetas per ounce ### Step 3: Find the total savings for the same volume - Volume = 30 ounces (same as big bottle) - Savings = 30 ounces \u00d7 10 pesetas/ounce = **300 pesetas**"
+        }
+      ]
+    },
+    {
+      "row_index": 788,
+      "id": "gsm8k:0206184101209cb49cf5d6f285537ddf0fb2824cda6a2d7cbf27d5f8255d352f",
+      "question": "Giselle had 20 female doves in a birdhouse. After a month, the doves laid 3 eggs each. If 3/4 of the eggs hatched, calculate the total number of doves Giselle has now.",
+      "gold_answer": "65",
+      "selected_candidate": 3,
+      "selected_answer": "45",
+      "candidates": [
+        {
+          "index": 0,
+          "parsed_answer": "45",
+          "reasoning_tail": "he eggs hatched**. --- ### Step 1: Calculate the total number of eggs laid Each of the 20 doves laid 3 eggs: $$ 20 \\times 3 = 60 \\text{ eggs} $$ --- ### Step 2: Calculate how many eggs hatched $$ \\frac{3}{4} \\text{ of } 60 = 45 \\text{ eggs} $$ --- ### Step 3: Calculate the number of doves now Each hatched egg led to a new dove, so: $$ 45 \\text{ doves} $$ ---"
+        },
+        {
+          "index": 1,
+          "parsed_answer": "65",
+          "reasoning_tail": "Giselle had **20 female doves**. Each dove laid **3 eggs**. So, the total number of eggs laid is: $$ 20 \\times 3 = 60 $$ Out of these eggs, **3/4** hatched. So, the number of hatched eggs is: $$ \\frac{3}{4} \\times 60 = 45 $$ Since each hatched egg becomes a dove, Giselle now has: $$ 20 + 45 = \\boxed{65} $$"
+        },
+        {
+          "index": 2,
+          "parsed_answer": "45",
+          "reasoning_tail": "eggs hatched**. --- ### Step 1: Calculate the number of eggs laid Each dove lays 3 eggs, and there are 20 doves: $$ 3 \\times 20 = 60 \\text{ eggs} $$ --- ### Step 2: Calculate how many eggs hatched $$ \\frac{3}{4} \\text{ of } 60 = 45 \\text{ eggs} $$ --- ### Step 3: Calculate the number of doves now Each hatched egg is a **dove**, so: $$ 45 \\text{ doves} $$ ---"
+        },
+        {
+          "index": 3,
+          "parsed_answer": "45",
+          "reasoning_tail": "ep 1: Calculate the total number of eggs laid $$ \\text{Total eggs} = 20 \\text{ doves} \\times 3 \\text{ eggs per dove} = 60 \\text{ eggs} $$ --- ### Step 2: Calculate the number of eggs that hatched $$ \\text{Hatched eggs} = \\frac{3}{4} \\times 60 = 45 $$ --- ### Step 3: Calculate the total number of doves now $$ \\text{Doves now} = \\text{Hatched eggs} = 45 $$ ---"
+        }
+      ]
+    }
+  ]
+}

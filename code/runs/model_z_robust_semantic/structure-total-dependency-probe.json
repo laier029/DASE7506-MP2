@@ -1,0 +1,492 @@
+{
+  "protocol_note": "train OOF and validation only; test sealed",
+  "feature": "total/altogether dependency leaf count excluding now/currently/everything",
+  "structures": {
+    "3-1": {
+      "train_support_rows": 281,
+      "validation_support_rows": 39,
+      "selected_by_first_oof_weight": -0.1,
+      "trials": [
+        {
+          "weight": -0.2,
+          "oof_correct_deltas": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "validation_correct_delta": -1,
+          "validation_answer_group_changes": [
+            666
+          ]
+        },
+        {
+          "weight": -0.1,
+          "oof_correct_deltas": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": -0.05,
+          "oof_correct_deltas": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.0,
+          "oof_correct_deltas": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.05,
+          "oof_correct_deltas": [
+            0,
+            1,
+            0,
+            0,
+            -1
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.1,
+          "oof_correct_deltas": [
+            -1,
+            1,
+            -2,
+            0,
+            -1
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.2,
+          "oof_correct_deltas": [
+            -3,
+            0,
+            -2,
+            0,
+            -1
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.3,
+          "oof_correct_deltas": [
+            -3,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.4,
+          "oof_correct_deltas": [
+            -4,
+            -5,
+            -4,
+            -3,
+            -1
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        }
+      ]
+    },
+    "2-2": {
+      "train_support_rows": 61,
+      "validation_support_rows": 5,
+      "selected_by_first_oof_weight": 0.2,
+      "trials": [
+        {
+          "weight": -0.2,
+          "oof_correct_deltas": [
+            -2,
+            -1,
+            -1,
+            -1,
+            -2
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": -0.1,
+          "oof_correct_deltas": [
+            0,
+            -2,
+            0,
+            0,
+            -2
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": -0.05,
+          "oof_correct_deltas": [
+            0,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.0,
+          "oof_correct_deltas": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.05,
+          "oof_correct_deltas": [
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.1,
+          "oof_correct_deltas": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.2,
+          "oof_correct_deltas": [
+            1,
+            2,
+            0,
+            2,
+            -1
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.3,
+          "oof_correct_deltas": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.4,
+          "oof_correct_deltas": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        }
+      ]
+    },
+    "2-1-1": {
+      "train_support_rows": 142,
+      "validation_support_rows": 27,
+      "selected_by_first_oof_weight": 0.0,
+      "trials": [
+        {
+          "weight": -0.2,
+          "oof_correct_deltas": [
+            -8,
+            -6,
+            -6,
+            -5,
+            -7
+          ],
+          "validation_correct_delta": -1,
+          "validation_answer_group_changes": [
+            309
+          ]
+        },
+        {
+          "weight": -0.1,
+          "oof_correct_deltas": [
+            -1,
+            -1,
+            -5,
+            -2,
+            -4
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": -0.05,
+          "oof_correct_deltas": [
+            -1,
+            -1,
+            -2,
+            0,
+            1
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.0,
+          "oof_correct_deltas": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.05,
+          "oof_correct_deltas": [
+            -1,
+            -1,
+            -1,
+            0,
+            1
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.1,
+          "oof_correct_deltas": [
+            -1,
+            0,
+            -1,
+            0,
+            3
+          ],
+          "validation_correct_delta": -1,
+          "validation_answer_group_changes": [
+            457
+          ]
+        },
+        {
+          "weight": 0.2,
+          "oof_correct_deltas": [
+            -2,
+            2,
+            -5,
+            0,
+            2
+          ],
+          "validation_correct_delta": -1,
+          "validation_answer_group_changes": [
+            457
+          ]
+        },
+        {
+          "weight": 0.3,
+          "oof_correct_deltas": [
+            -1,
+            2,
+            -7,
+            0,
+            0
+          ],
+          "validation_correct_delta": -1,
+          "validation_answer_group_changes": [
+            457
+          ]
+        },
+        {
+          "weight": 0.4,
+          "oof_correct_deltas": [
+            -1,
+            -1,
+            -7,
+            -3,
+            -3
+          ],
+          "validation_correct_delta": -3,
+          "validation_answer_group_changes": [
+            330,
+            457,
+            655
+          ]
+        }
+      ]
+    },
+    "1-1-1-1": {
+      "train_support_rows": 54,
+      "validation_support_rows": 10,
+      "selected_by_first_oof_weight": 0.0,
+      "trials": [
+        {
+          "weight": -0.2,
+          "oof_correct_deltas": [
+            -2,
+            -2,
+            0,
+            -2,
+            1
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": -0.1,
+          "oof_correct_deltas": [
+            -2,
+            -1,
+            0,
+            -1,
+            0
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": -0.05,
+          "oof_correct_deltas": [
+            -2,
+            -1,
+            0,
+            -1,
+            0
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.0,
+          "oof_correct_deltas": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "validation_correct_delta": 0,
+          "validation_answer_group_changes": []
+        },
+        {
+          "weight": 0.05,
+          "oof_correct_deltas": [
+            -1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "validation_correct_delta": -1,
+          "validation_answer_group_changes": [
+            473
+          ]
+        },
+        {
+          "weight": 0.1,
+          "oof_correct_deltas": [
+            -1,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "validation_correct_delta": -1,
+          "validation_answer_group_changes": [
+            473
+          ]
+        },
+        {
+          "weight": 0.2,
+          "oof_correct_deltas": [
+            -1,
+            1,
+            2,
+            -2,
+            2
+          ],
+          "validation_correct_delta": -1,
+          "validation_answer_group_changes": [
+            473
+          ]
+        },
+        {
+          "weight": 0.3,
+          "oof_correct_deltas": [
+            -1,
+            1,
+            0,
+            -1,
+            3
+          ],
+          "validation_correct_delta": -2,
+          "validation_answer_group_changes": [
+            473,
+            481
+          ]
+        },
+        {
+          "weight": 0.4,
+          "oof_correct_deltas": [
+            0,
+            0,
+            0,
+            -1,
+            2
+          ],
+          "validation_correct_delta": -2,
+          "validation_answer_group_changes": [
+            473,
+            481
+          ]
+        }
+      ]
+    }
+  }
+}

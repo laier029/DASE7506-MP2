@@ -1,0 +1,53 @@
+{
+  "protocol_note": "validation inputs only; no references or test data read",
+  "audit_rows": [
+    22,
+    32,
+    44,
+    90,
+    97,
+    617,
+    788
+  ],
+  "choices": [
+    0,
+    3,
+    0,
+    2,
+    2,
+    3,
+    3
+  ],
+  "runtime_project_module_count": 27,
+  "manifest_source_file_count": 27,
+  "missing_runtime_modules": [],
+  "runtime_project_modules": [
+    "common.py",
+    "models/answer_step_consistency.py",
+    "models/arithmetic_consistency.py",
+    "models/broad_arithmetic_group_verifier.py",
+    "models/calculation_coverage.py",
+    "models/cascade_verifier.py",
+    "models/coverage_cascade_verifier.py",
+    "models/declared_answer_consistency.py",
+    "models/final_declaration_consistency.py",
+    "models/fused_answer_step_verifier.py",
+    "models/fused_arithmetic_verifier.py",
+    "models/fused_relative_consensus.py",
+    "models/linear_verifier.py",
+    "models/numeric_plausibility.py",
+    "models/occurrence_plausibility_verifier.py",
+    "models/omitted_factor.py",
+    "models/parseable_group_verifier.py",
+    "models/reasoning_density_verifier.py",
+    "models/robust_semantic_verifier.py",
+    "models/semantic_rank_features.py",
+    "models/stable_signal_features.py",
+    "models/stable_signal_verifier.py",
+    "models/structure_text_fusion_verifier.py",
+    "models/target_alignment.py",
+    "models/target_omitted_factor_verifier.py",
+    "models/terminal_dependency_features.py",
+    "submission.py"
+  ]
+}
